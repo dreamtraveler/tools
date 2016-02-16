@@ -1,0 +1,13 @@
+#!/usr/bin/expect -f
+
+set user ubuntu
+set host 119.29.52.148
+set password sgq@@@shangyuanjuntingdongmen
+set timeout 10
+
+spawn scp package_6597.tar.gz $user@$host:/home/ubuntu/pkg/
+expect {
+    "*yes/no" { send "yes\r"; exp_continue}
+    "*password:" { send "$password\r" }
+}
+interact
