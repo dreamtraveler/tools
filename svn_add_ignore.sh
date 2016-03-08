@@ -1,5 +1,6 @@
 #!/bin/bash
 pre=100
+commit_file=" "
 for file in $(svn status); do
     if [ "$file" == "?" ]; then
         pre=0
@@ -18,9 +19,15 @@ for file in $(svn status); do
         if [ $is_find -eq 0 ]; then
             if [[ $1 == "-y" ]]; then
                 svn add $file
+                commit_file="$commit_file $file"
             else
                 echo $file
+                commit_file="$commit_file $file"
             fi
         fi
     fi
 done
+
+if [[ $2 == "-c" ]]; then
+    svn commit $commit_file -m "auto commit"
+fi
