@@ -1,0 +1,11 @@
+{
+	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+	"default_line_ending": "unix",
+	"font_size": 20,
+	"ignored_packages":
+	[
+	],
+	"tab_size": 4,
+	"vintage_ctrl_keys": true,
+	"vintage_start_in_command_mode": true
+}
