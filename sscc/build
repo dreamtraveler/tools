@@ -1,0 +1,15 @@
+sdl_files := $(shell find . -name "*.sdl" -type f)
+go_files :=  $(sdl_files:%.sdl=../message/%.go)
+
+all:$(go_files)
+
+.SECONDEXPANSION:
+
+$(go_files):%.go:$$(subst ../message/,,%.sdl)
+	if [ ! -d $(dir ../message/$(notdir $@)) ]; then mkdir -p $(dir ../message/$(notdir $@)); fi
+	../sscc/sscc -i$< -o../message/$(notdir $(patsubst %.go,%_h.go,$@))  -lgo -I..
+
+clean:
+	rm -rf ../message
+
+install:

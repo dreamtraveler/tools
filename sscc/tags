@@ -1,0 +1,1189 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/tanlei\/learning\/deps\/sscc\/missing aclocal-1.14$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AMTAR	Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AM_DEFAULT_VERBOSITY	Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_RECURSIVE_TARGETS	Makefile	/^AM_RECURSIVE_TARGETS = cscope$/;"	m
+AM_V_CXX	Makefile	/^AM_V_CXX = $(am__v_CXX_$(V))$/;"	m
+AM_V_CXXLD	Makefile	/^AM_V_CXXLD = $(am__v_CXXLD_$(V))$/;"	m
+AM_V_GEN	Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_P	Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_at	Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_lt	Makefile	/^AM_V_lt = $(am__v_lt_$(V))$/;"	m
+AR	Makefile	/^AR = ar$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/tanlei\/learning\/deps\/sscc\/missing autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/tanlei\/learning\/deps\/sscc\/missing autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/tanlei\/learning\/deps\/sscc\/missing automake-1.14$/;"	m
+AWK	Makefile	/^AWK = mawk$/;"	m
+BLOCK_CLASS	cpp_printer.h	/^		BLOCK_CLASS,$/;"	e	enum:CppPrinter::__anon4
+BLOCK_CLASS	go_printer.h	/^		BLOCK_CLASS,$/;"	e	enum:GoPrinter::__anon8
+BLOCK_DO	cpp_printer.h	/^		BLOCK_DO,$/;"	e	enum:CppPrinter::__anon4
+BLOCK_DO	go_printer.h	/^		BLOCK_DO,$/;"	e	enum:GoPrinter::__anon8
+BLOCK_ELSE	cpp_printer.h	/^		BLOCK_ELSE,$/;"	e	enum:CppPrinter::__anon4
+BLOCK_ELSE	go_printer.h	/^		BLOCK_ELSE,$/;"	e	enum:GoPrinter::__anon8
+BLOCK_ENUM	cpp_printer.h	/^		BLOCK_ENUM,$/;"	e	enum:CppPrinter::__anon4
+BLOCK_ENUM	go_printer.h	/^		BLOCK_ENUM,$/;"	e	enum:GoPrinter::__anon8
+BLOCK_FOR	cpp_printer.h	/^		BLOCK_FOR,$/;"	e	enum:CppPrinter::__anon4
+BLOCK_FOR	go_printer.h	/^		BLOCK_FOR,$/;"	e	enum:GoPrinter::__anon8
+BLOCK_FUNC	cpp_printer.h	/^		BLOCK_FUNC,$/;"	e	enum:CppPrinter::__anon4
+BLOCK_FUNC	go_printer.h	/^		BLOCK_FUNC,$/;"	e	enum:GoPrinter::__anon8
+BLOCK_IF	cpp_printer.h	/^		BLOCK_IF,$/;"	e	enum:CppPrinter::__anon4
+BLOCK_IF	go_printer.h	/^		BLOCK_IF,$/;"	e	enum:GoPrinter::__anon8
+BLOCK_STRUCT	cpp_printer.h	/^		BLOCK_STRUCT,$/;"	e	enum:CppPrinter::__anon4
+BLOCK_STRUCT	go_printer.h	/^		BLOCK_STRUCT,$/;"	e	enum:GoPrinter::__anon8
+BLOCK_UNION	cpp_printer.h	/^		BLOCK_UNION,$/;"	e	enum:CppPrinter::__anon4
+BLOCK_UNION	go_printer.h	/^		BLOCK_UNION,$/;"	e	enum:GoPrinter::__anon8
+BLOCK_WHILE	cpp_printer.h	/^		BLOCK_WHILE,$/;"	e	enum:CppPrinter::__anon4
+BLOCK_WHILE	go_printer.h	/^		BLOCK_WHILE,$/;"	e	enum:GoPrinter::__anon8
+BoolToken	token.h	/^    BoolToken(const Input &input, bool value) $/;"	f	class:BoolToken
+BoolToken	token.h	/^class BoolToken : public Token {$/;"	c
+CC	Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = config.h$/;"	m
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CSCOPE	Makefile	/^CSCOPE = cscope$/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CXX	Makefile	/^CXX = g++$/;"	m
+CXXCOMPILE	Makefile	/^CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \\$/;"	m
+CXXCPP	Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXDEPMODE	Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -g -O2 -std=c++11 -O2 -Wall -I. -I..  -I\/usr\/local\/include\/luajit-2.0 -D__GX_SERVER__ -std=c++11 -O2 -Wall -g -DGX_UNUSE_LOG$/;"	m
+CXXLD	Makefile	/^CXXLD = $(CXX)$/;"	m
+CXXLINK	Makefile	/^CXXLINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) \\$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+CppLang	cpp_lang.cpp	/^CppLang::CppLang() : Language("cpp") {$/;"	f	class:CppLang
+CppLang	cpp_lang.h	/^class CppLang : public Language {$/;"	c
+CppPrinter	cpp_printer.h	/^class CppPrinter : public Printer {$/;"	c
+CreateProcess	libtool	/^   CreateProcess().  We must quote the arguments since Win32 CreateProcess()$/;"	f
+CreateProcess	ltmain.sh	/^   CreateProcess().  We must quote the arguments since Win32 CreateProcess()$/;"	f
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I.$/;"	m
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_ARCHIVES	Makefile	/^DIST_ARCHIVES = $(distdir).tar.gz$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.in $(srcdir)\/Makefile.am \\$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(sscc_SOURCES)$/;"	m
+DIST_TARGETS	Makefile	/^DIST_TARGETS = dist-gzip$/;"	m
+DLLTOOL	Makefile	/^DLLTOOL = false$/;"	m
+DSYMUTIL	Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	Makefile	/^DUMPBIN = $/;"	m
+DefineTree	define_tree.h	/^	DefineTree(ptr<Token> name, ptr<ExprTree> value)$/;"	f	class:DefineTree
+DefineTree	define_tree.h	/^    DefineTree() : Tree(TREE_DEFINE) { }$/;"	f	class:DefineTree
+DefineTree	define_tree.h	/^class DefineTree : public Tree {$/;"	c
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+EXPR_INT	expr_tree.h	/^    EXPR_INT,$/;"	e	enum:__anon2
+EXPR_OPT_ADD	expr_tree.cpp	/^    EXPR_OPT_ADD,$/;"	e	enum:__anon9	file:
+EXPR_OPT_AND	expr_tree.cpp	/^    EXPR_OPT_AND,$/;"	e	enum:__anon9	file:
+EXPR_OPT_DIV	expr_tree.cpp	/^    EXPR_OPT_DIV,$/;"	e	enum:__anon9	file:
+EXPR_OPT_EQ	expr_tree.cpp	/^    EXPR_OPT_EQ,$/;"	e	enum:__anon9	file:
+EXPR_OPT_GE	expr_tree.cpp	/^    EXPR_OPT_GE,$/;"	e	enum:__anon9	file:
+EXPR_OPT_GT	expr_tree.cpp	/^    EXPR_OPT_GT,$/;"	e	enum:__anon9	file:
+EXPR_OPT_LE	expr_tree.cpp	/^    EXPR_OPT_LE,$/;"	e	enum:__anon9	file:
+EXPR_OPT_LOGIC_AND	expr_tree.cpp	/^    EXPR_OPT_LOGIC_AND,$/;"	e	enum:__anon9	file:
+EXPR_OPT_LOGIC_OR	expr_tree.cpp	/^    EXPR_OPT_LOGIC_OR,$/;"	e	enum:__anon9	file:
+EXPR_OPT_LT	expr_tree.cpp	/^    EXPR_OPT_LT,$/;"	e	enum:__anon9	file:
+EXPR_OPT_MOD	expr_tree.cpp	/^    EXPR_OPT_MOD,$/;"	e	enum:__anon9	file:
+EXPR_OPT_MUL	expr_tree.cpp	/^    EXPR_OPT_MUL,$/;"	e	enum:__anon9	file:
+EXPR_OPT_NE	expr_tree.cpp	/^    EXPR_OPT_NE,$/;"	e	enum:__anon9	file:
+EXPR_OPT_OR	expr_tree.cpp	/^    EXPR_OPT_OR,$/;"	e	enum:__anon9	file:
+EXPR_OPT_SHIFT_LEFT	expr_tree.cpp	/^    EXPR_OPT_SHIFT_LEFT,$/;"	e	enum:__anon9	file:
+EXPR_OPT_SHIFT_RIGHT	expr_tree.cpp	/^    EXPR_OPT_SHIFT_RIGHT,$/;"	e	enum:__anon9	file:
+EXPR_OPT_SUB	expr_tree.cpp	/^    EXPR_OPT_SUB,$/;"	e	enum:__anon9	file:
+EXPR_OPT_UNKNOWN	expr_tree.cpp	/^    EXPR_OPT_UNKNOWN,$/;"	e	enum:__anon9	file:
+EXPR_OPT_XOR	expr_tree.cpp	/^    EXPR_OPT_XOR,$/;"	e	enum:__anon9	file:
+EXPR_STRING	expr_tree.h	/^    EXPR_STRING,$/;"	e	enum:__anon2
+EXPR_UNKNOWN	expr_tree.h	/^    EXPR_UNKNOWN,$/;"	e	enum:__anon2
+ExprTree	expr_tree.h	/^    ExprTree() : Tree(TREE_EXPR), _exprType(EXPR_UNKNOWN) { }$/;"	f	class:ExprTree
+ExprTree	expr_tree.h	/^    ExprTree(const char *value) : Tree(TREE_EXPR), _exprType(EXPR_STRING), _vstr(value) { }$/;"	f	class:ExprTree
+ExprTree	expr_tree.h	/^    ExprTree(int64_t value) : Tree(TREE_EXPR), _exprType(EXPR_INT), _vint(value) { }$/;"	f	class:ExprTree
+ExprTree	expr_tree.h	/^class ExprTree : public Tree$/;"	c
+FGREP	Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+Foo	test/test.cpp	/^struct Foo {$/;"	s	file:
+Foo2	test/test.cpp	/^struct Foo2 {$/;"	s	file:
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+GZIP_ENV	Makefile	/^GZIP_ENV = --best$/;"	m
+GoLang	go_lang.cpp	/^GoLang::GoLang() : Language("go") {$/;"	f	class:GoLang
+GoLang	go_lang.h	/^class GoLang : public Language {$/;"	c
+GoPrinter	go_printer.h	/^class GoPrinter : public Printer {$/;"	c
+HAVE_DLFCN_H	config.h	5;"	d
+HAVE_INTTYPES_H	config.h	8;"	d
+HAVE_MEMORY_H	config.h	11;"	d
+HAVE_STDINT_H	config.h	14;"	d
+HAVE_STDLIB_H	config.h	17;"	d
+HAVE_STRINGS_H	config.h	20;"	d
+HAVE_STRING_H	config.h	23;"	d
+HAVE_SYS_STAT_H	config.h	26;"	d
+HAVE_SYS_TYPES_H	config.h	29;"	d
+HAVE_UNISTD_H	config.h	32;"	d
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+ISerial	test/test.cpp	/^struct ISerial {$/;"	s	file:
+IdenToken	token.h	/^    IdenToken(const Input &input, const Unistr &content) $/;"	f	class:IdenToken
+IdenToken	token.h	/^class IdenToken : public Token {$/;"	c
+IncludeTree	include_tree.h	/^	IncludeTree(ptr<Path> path) : Tree(TREE_INCLUDE), _path(path) { }$/;"	f	class:IncludeTree
+IncludeTree	include_tree.h	/^class IncludeTree : public Tree {$/;"	c
+Input	input.cpp	/^Input::Input() {$/;"	f	class:Input
+Input	input.h	/^class Input$/;"	c
+InputFile	input.cpp	/^InputFile::InputFile() $/;"	f	class:InputFile
+InputFile	input.h	/^class InputFile$/;"	c
+IntegerToken	token.h	/^    IntegerToken(const Input &input, const Unistr &text, int64_t value) $/;"	f	class:IntegerToken
+IntegerToken	token.h	/^class IntegerToken : public Token {$/;"	c
+KEYWORD_DECL	token.cpp	11;"	d	file:
+KEYWORD_DECL	token.cpp	7;"	d	file:
+KEYWORD_DECL	token.h	15;"	d
+KEYWORD_DECL	token.h	39;"	d
+LD	Makefile	/^LD = \/usr\/bin\/ld -m elf_x86_64$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS =  -L..\/libgx -lluajit-5.1 -lrt -lm -ldl -lz -lmysqlclient -lgxs$/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIPO	Makefile	/^LIPO = $/;"	m
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LTCXXCOMPILE	Makefile	/^LTCXXCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) \\$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+LT_OBJDIR	config.h	36;"	d
+Language	lang.cpp	/^Language::Language(const char *name) : _name(Unistr::get(name, strlen(name)))$/;"	f	class:Language
+Language	lang.h	/^class Language : public Object {$/;"	c
+Lex	lex.cpp	/^Lex::Lex() {$/;"	f	class:Lex
+Lex	lex.h	/^class Lex : public Object {$/;"	c
+Location	input.h	/^struct Location$/;"	s
+LuaVarLang	luavar_lang.cpp	/^LuaVarLang::LuaVarLang() : Language("luavar") { $/;"	f	class:LuaVarLang
+LuaVarLang	luavar_lang.h	/^class LuaVarLang : public Language {$/;"	c
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/tanlei\/learning\/deps\/sscc\/missing makeinfo$/;"	m
+MANIFEST_TOOL	Makefile	/^MANIFEST_TOOL = :$/;"	m
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MessageTree	message_tree.h	/^	MessageTree() : Tree(TREE_MESSAGE) { }$/;"	f	class:MessageTree
+MessageTree	message_tree.h	/^class MessageTree : public Tree {$/;"	c
+NM	Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NMEDIT	Makefile	/^NMEDIT = $/;"	m
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP = objdump$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OTOOL	Makefile	/^OTOOL = $/;"	m
+OTOOL64	Makefile	/^OTOOL64 = $/;"	m
+PACKAGE	Makefile	/^PACKAGE = sscc$/;"	m
+PACKAGE	config.h	39;"	d
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_BUGREPORT	config.h	42;"	d
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = sscc$/;"	m
+PACKAGE_NAME	config.h	45;"	d
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = sscc 0.1$/;"	m
+PACKAGE_STRING	config.h	48;"	d
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = sscc$/;"	m
+PACKAGE_TARNAME	config.h	51;"	d
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	config.h	54;"	d
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 0.1$/;"	m
+PACKAGE_VERSION	config.h	57;"	d
+PARSE_PHASE_BODY	parser.h	/^    PARSE_PHASE_BODY,$/;"	e	enum:__anon6
+PARSE_PHASE_HEAD	parser.h	/^    PARSE_PHASE_HEAD,$/;"	e	enum:__anon6
+PARSE_PHASE_TAIL	parser.h	/^    PARSE_PHASE_TAIL,$/;"	e	enum:__anon6
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PROGRAMS	Makefile	/^PROGRAMS = $(noinst_PROGRAMS)$/;"	m
+Parser	parser.cpp	/^Parser::Parser(Input &input, SymbolTable &symbols) $/;"	f	class:Parser
+Parser	parser.h	/^class Parser {$/;"	c
+Position	input.h	/^    Position() : file(), line(), col() {}$/;"	f	struct:Position
+Position	input.h	/^struct Position$/;"	s
+Printer	printer.cpp	/^Printer::Printer() $/;"	f	class:Printer
+Printer	printer.h	/^class Printer {$/;"	c
+QUEUE_SIZE	parser.cpp	11;"	d	file:
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+RangeTree	range_tree.h	/^	RangeTree() : Tree(TREE_RANGE) { }$/;"	f	class:RangeTree
+RangeTree	range_tree.h	/^class RangeTree : public Tree {$/;"	c
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+SOURCES	Makefile	/^SOURCES = $(sscc_SOURCES)$/;"	m
+SSCC_ASSERT	test/test.cpp	78;"	d	file:
+SSCC_CREATE	test/test.cpp	68;"	d	file:
+SSCC_DOUBLE	test/test.cpp	33;"	d	file:
+SSCC_DUMP_PARAM	test/test.cpp	76;"	d	file:
+SSCC_DUMP_PARAM_DECL	test/test.cpp	75;"	d	file:
+SSCC_FLOAT	test/test.cpp	32;"	d	file:
+SSCC_FROMLUA_PARAM	test/test.cpp	88;"	d	file:
+SSCC_FROMLUA_PARAM_DECL	test/test.cpp	87;"	d	file:
+SSCC_INT16	test/test.cpp	26;"	d	file:
+SSCC_INT32	test/test.cpp	28;"	d	file:
+SSCC_INT64	test/test.cpp	30;"	d	file:
+SSCC_INT8	test/test.cpp	24;"	d	file:
+SSCC_POINTER	test/test.cpp	65;"	d	file:
+SSCC_POINTER_GET	test/test.cpp	66;"	d	file:
+SSCC_POINTER_SET	test/test.cpp	67;"	d	file:
+SSCC_PRINT	test/test.cpp	80;"	d	file:
+SSCC_PRINT_INDENT	test/test.cpp	81;"	d	file:
+SSCC_READ_DOUBLE	test/test.cpp	61;"	d	file:
+SSCC_READ_FLOAT	test/test.cpp	60;"	d	file:
+SSCC_READ_INT16	test/test.cpp	54;"	d	file:
+SSCC_READ_INT32	test/test.cpp	56;"	d	file:
+SSCC_READ_INT64	test/test.cpp	58;"	d	file:
+SSCC_READ_INT8	test/test.cpp	52;"	d	file:
+SSCC_READ_SIZE	test/test.cpp	63;"	d	file:
+SSCC_READ_STRING	test/test.cpp	62;"	d	file:
+SSCC_READ_UINT16	test/test.cpp	55;"	d	file:
+SSCC_READ_UINT32	test/test.cpp	57;"	d	file:
+SSCC_READ_UINT64	test/test.cpp	59;"	d	file:
+SSCC_READ_UINT8	test/test.cpp	53;"	d	file:
+SSCC_SERIAL_PARAM	test/test.cpp	71;"	d	file:
+SSCC_SERIAL_PARAM_DECL	test/test.cpp	70;"	d	file:
+SSCC_STRING	test/test.cpp	34;"	d	file:
+SSCC_STRING_CSTR	test/test.cpp	37;"	d	file:
+SSCC_STRING_SIZE	test/test.cpp	38;"	d	file:
+SSCC_UINT16	test/test.cpp	27;"	d	file:
+SSCC_UINT32	test/test.cpp	29;"	d	file:
+SSCC_UINT64	test/test.cpp	31;"	d	file:
+SSCC_UINT8	test/test.cpp	25;"	d	file:
+SSCC_UNSERIAL_PARAM	test/test.cpp	73;"	d	file:
+SSCC_UNSERIAL_PARAM_DECL	test/test.cpp	72;"	d	file:
+SSCC_USE_DUMP	test/test.cpp	79;"	d	file:
+SSCC_USE_LUA	test/test.cpp	86;"	d	file:
+SSCC_VECTOR	test/test.cpp	35;"	d	file:
+SSCC_VECTOR_SIZE	test/test.cpp	36;"	d	file:
+SSCC_WRITE_DOUBLE	test/test.cpp	48;"	d	file:
+SSCC_WRITE_FLOAT	test/test.cpp	47;"	d	file:
+SSCC_WRITE_INT16	test/test.cpp	41;"	d	file:
+SSCC_WRITE_INT32	test/test.cpp	43;"	d	file:
+SSCC_WRITE_INT64	test/test.cpp	45;"	d	file:
+SSCC_WRITE_INT8	test/test.cpp	39;"	d	file:
+SSCC_WRITE_SIZE	test/test.cpp	50;"	d	file:
+SSCC_WRITE_STRING	test/test.cpp	49;"	d	file:
+SSCC_WRITE_UINT16	test/test.cpp	42;"	d	file:
+SSCC_WRITE_UINT32	test/test.cpp	44;"	d	file:
+SSCC_WRITE_UINT64	test/test.cpp	46;"	d	file:
+SSCC_WRITE_UINT8	test/test.cpp	40;"	d	file:
+STDC_HEADERS	config.h	60;"	d
+STRIP	Makefile	/^STRIP = strip$/;"	m
+SegmentToken	token.h	/^    SegmentToken(const Input &input, ptr<Token> name) $/;"	f	class:SegmentToken
+SegmentToken	token.h	/^class SegmentToken : public Token {$/;"	c
+StringToken	token.h	/^    StringToken(const Input &input, const Unistr &content) $/;"	f	class:StringToken
+StringToken	token.h	/^class StringToken : public Token {$/;"	c
+StructItemTree	struct_item_tree.h	/^    StructItemTree() : Tree(TREE_STRUCT_ITEM) { }$/;"	f	class:StructItemTree
+StructItemTree	struct_item_tree.h	/^class StructItemTree : public Tree {$/;"	c
+StructTree	struct_tree.h	/^    StructTree() : Tree(TREE_STRUCT), message() { }$/;"	f	class:StructTree
+StructTree	struct_tree.h	/^    StructTree(ptr<Token> name) : Tree(TREE_STRUCT), _name(name), message() { }$/;"	f	class:StructTree
+StructTree	struct_tree.h	/^class StructTree : public Tree {$/;"	c
+SymbolTable	symtab.h	/^class SymbolTable {$/;"	c
+TOKEN_BLOCK_COMMENT	token.h	/^    TOKEN_BLOCK_COMMENT,$/;"	e	enum:__anon5
+TOKEN_BOOL	token.h	/^    TOKEN_BOOL,$/;"	e	enum:__anon5
+TOKEN_CONST_STRING	token.h	/^    TOKEN_CONST_STRING,$/;"	e	enum:__anon5
+TOKEN_EQ	token.h	/^    TOKEN_EQ,$/;"	e	enum:__anon5
+TOKEN_GE	token.h	/^    TOKEN_GE,$/;"	e	enum:__anon5
+TOKEN_IDEN	token.h	/^    TOKEN_IDEN = 256,$/;"	e	enum:__anon5
+TOKEN_INTEGER	token.h	/^    TOKEN_INTEGER,$/;"	e	enum:__anon5
+TOKEN_KEYWORD_BEGIN	token.h	/^    TOKEN_KEYWORD_BEGIN,$/;"	e	enum:__anon5
+TOKEN_KEYWORD_BEGIN_1	token.h	/^    TOKEN_KEYWORD_BEGIN_1 = TOKEN_KEYWORD_BEGIN - 1,$/;"	e	enum:__anon5
+TOKEN_KEYWORD_END	token.h	/^    TOKEN_KEYWORD_END,$/;"	e	enum:__anon5
+TOKEN_LE	token.h	/^    TOKEN_LE,$/;"	e	enum:__anon5
+TOKEN_LINE_COMMENT	token.h	/^    TOKEN_LINE_COMMENT,$/;"	e	enum:__anon5
+TOKEN_LOGIC_AND	token.h	/^    TOKEN_LOGIC_AND,$/;"	e	enum:__anon5
+TOKEN_LOGIC_OR	token.h	/^    TOKEN_LOGIC_OR,$/;"	e	enum:__anon5
+TOKEN_NE	token.h	/^    TOKEN_NE,$/;"	e	enum:__anon5
+TOKEN_RANGE	token.h	/^    TOKEN_RANGE,$/;"	e	enum:__anon5
+TOKEN_SEGMENT	token.h	/^    TOKEN_SEGMENT,$/;"	e	enum:__anon5
+TOKEN_SHIFT_LEFT	token.h	/^    TOKEN_SHIFT_LEFT,$/;"	e	enum:__anon5
+TOKEN_SHIFT_RIGHT	token.h	/^    TOKEN_SHIFT_RIGHT,$/;"	e	enum:__anon5
+TOKEN_UNKNOWN	token.h	/^    TOKEN_UNKNOWN = TOKEN_KEYWORD_END,$/;"	e	enum:__anon5
+TREE_DEFINE	tree.h	/^    TREE_DEFINE,$/;"	e	enum:__anon10
+TREE_EXPR	tree.h	/^    TREE_EXPR,$/;"	e	enum:__anon10
+TREE_INCLUDE	tree.h	/^	TREE_INCLUDE,$/;"	e	enum:__anon10
+TREE_MESSAGE	tree.h	/^	TREE_MESSAGE,$/;"	e	enum:__anon10
+TREE_RANGE	tree.h	/^	TREE_RANGE,$/;"	e	enum:__anon10
+TREE_STRUCT	tree.h	/^    TREE_STRUCT,$/;"	e	enum:__anon10
+TREE_STRUCT_ITEM	tree.h	/^	TREE_STRUCT_ITEM,$/;"	e	enum:__anon10
+TREE_TYPE	tree.h	/^	TREE_TYPE,$/;"	e	enum:__anon10
+TREE_UNION	tree.h	/^	TREE_UNION,$/;"	e	enum:__anon10
+TREE_UNION_ITEM	tree.h	/^	TREE_UNION_ITEM,$/;"	e	enum:__anon10
+TREE_UNION_PTR	tree.h	/^	TREE_UNION_PTR,$/;"	e	enum:__anon10
+TREE_UNION_PTR_ITEM	tree.h	/^	TREE_UNION_PTR_ITEM,$/;"	e	enum:__anon10
+TREE_VAR	tree.h	/^    TREE_VAR,$/;"	e	enum:__anon10
+TYPE_DOUBLE	type_tree.h	/^    TYPE_DOUBLE,$/;"	e	enum:__anon1
+TYPE_FLOAT	type_tree.h	/^    TYPE_FLOAT,$/;"	e	enum:__anon1
+TYPE_INT16	type_tree.h	/^    TYPE_INT16,$/;"	e	enum:__anon1
+TYPE_INT32	type_tree.h	/^    TYPE_INT32,$/;"	e	enum:__anon1
+TYPE_INT64	type_tree.h	/^    TYPE_INT64,$/;"	e	enum:__anon1
+TYPE_INT8	type_tree.h	/^	TYPE_INT8,$/;"	e	enum:__anon1
+TYPE_STRING	type_tree.h	/^	TYPE_STRING,$/;"	e	enum:__anon1
+TYPE_STRUCT	type_tree.h	/^	TYPE_STRUCT,$/;"	e	enum:__anon1
+TYPE_UINT16	type_tree.h	/^    TYPE_UINT16,$/;"	e	enum:__anon1
+TYPE_UINT32	type_tree.h	/^    TYPE_UINT32,$/;"	e	enum:__anon1
+TYPE_UINT64	type_tree.h	/^    TYPE_UINT64,$/;"	e	enum:__anon1
+TYPE_UINT8	type_tree.h	/^    TYPE_UINT8,$/;"	e	enum:__anon1
+TYPE_UNKNOWN	type_tree.h	/^	TYPE_UNKNOWN,$/;"	e	enum:__anon1
+Token	token.h	/^    Token(int type, const Input &input, const char *text = nullptr) : _type(type), _loc(input.loc()), _text(text) { }$/;"	f	class:Token
+Token	token.h	/^class Token : public Object {$/;"	c
+Tree	tree.h	/^    Tree(int type) : _type(type) { }$/;"	f	class:Tree
+Tree	tree.h	/^class Tree : public Object {$/;"	c
+TypeTree	type_tree.h	/^	TypeTree() : Tree(TREE_TYPE) { }$/;"	f	class:TypeTree
+TypeTree	type_tree.h	/^class TypeTree : public Tree {$/;"	c
+UnionItemTree	union_item_tree.h	/^	UnionItemTree() : Tree(TREE_UNION_ITEM) { }$/;"	f	class:UnionItemTree
+UnionItemTree	union_item_tree.h	/^class UnionItemTree : public Tree {$/;"	c
+UnionPtrItemTree	union_ptr_item_tree.h	/^	UnionPtrItemTree() : Tree(TREE_UNION_PTR_ITEM) { }$/;"	f	class:UnionPtrItemTree
+UnionPtrItemTree	union_ptr_item_tree.h	/^class UnionPtrItemTree : public Tree {$/;"	c
+UnionPtrTree	union_ptr_tree.h	/^	UnionPtrTree(StructTree *the_struct) : Tree(TREE_UNION_PTR), _struct(the_struct) { }$/;"	f	class:UnionPtrTree
+UnionPtrTree	union_ptr_tree.h	/^class UnionPtrTree : public Tree {$/;"	c
+UnionTree	union_tree.h	/^	UnionTree(StructTree *the_struct) : Tree(TREE_UNION), _struct(the_struct) { }$/;"	f	class:UnionTree
+UnionTree	union_tree.h	/^class UnionTree : public Tree {$/;"	c
+Unistr	unistr.h	/^    Unistr() { }$/;"	f	class:Unistr
+Unistr	unistr.h	/^class Unistr {$/;"	c
+VAR_CUSTOM	var_tree.h	/^    VAR_CUSTOM,$/;"	e	enum:__anon7
+VAR_DOUBLE	var_tree.h	/^    VAR_DOUBLE,$/;"	e	enum:__anon7
+VAR_FLOAT	var_tree.h	/^    VAR_FLOAT,$/;"	e	enum:__anon7
+VAR_INT16	var_tree.h	/^    VAR_INT16,$/;"	e	enum:__anon7
+VAR_INT32	var_tree.h	/^    VAR_INT32,$/;"	e	enum:__anon7
+VAR_INT64	var_tree.h	/^    VAR_INT64,$/;"	e	enum:__anon7
+VAR_INT8	var_tree.h	/^    VAR_INT8,$/;"	e	enum:__anon7
+VAR_STRING	var_tree.h	/^    VAR_STRING,$/;"	e	enum:__anon7
+VAR_UINT16	var_tree.h	/^    VAR_UINT16,$/;"	e	enum:__anon7
+VAR_UINT32	var_tree.h	/^    VAR_UINT32,$/;"	e	enum:__anon7
+VAR_UINT64	var_tree.h	/^    VAR_UINT64,$/;"	e	enum:__anon7
+VAR_UINT8	var_tree.h	/^    VAR_UINT8,$/;"	e	enum:__anon7
+VAR_UNKNOWN	var_tree.h	/^    VAR_UNKNOWN,$/;"	e	enum:__anon7
+VERSION	Makefile	/^VERSION = 0.1$/;"	m
+VERSION	config.h	63;"	d
+VarTree	var_tree.h	/^    VarTree() : Tree(TREE_VAR) { }$/;"	f	class:VarTree
+VarTree	var_tree.h	/^class VarTree : public Tree {$/;"	c
+__CONSTEXPR_TREE_H__	expr_tree.h	2;"	d
+__CPP_LANG_H__	cpp_lang.h	2;"	d
+__CPP_PRINTER_H__	cpp_printer.h	2;"	d
+__DEFINE_TREE_H__	define_tree.h	2;"	d
+__GO_LANG_H__	go_lang.h	2;"	d
+__GO_PRINTER_H__	go_printer.h	2;"	d
+__INCLUDE_TREE_H__	include_tree.h	2;"	d
+__INPUT_H__	input.h	2;"	d
+__LANG_H__	lang.h	2;"	d
+__LEX_H__	lex.h	2;"	d
+__LOG_H__	log.h	2;"	d
+__LUAVAR_LANG_H__	luavar_lang.h	2;"	d
+__MESSAGE_TREE_H__	message_tree.h	2;"	d
+__PARSE_H__	parser.h	2;"	d
+__PRINTER_H__	printer.h	2;"	d
+__RANGE_TREE_H__	range_tree.h	2;"	d
+__STRUCT_ITEM_TREE_H__	struct_item_tree.h	2;"	d
+__STRUCT_TREE_H__	struct_tree.h	2;"	d
+__SYMTAB_H__	symtab.h	2;"	d
+__TOKEN_H__	token.h	2;"	d
+__TREE_H__	tree.h	2;"	d
+__TYPE_TREE_H__	type_tree.h	2;"	d
+__UNION_ITEM_TREE_H__	union_item_tree.h	2;"	d
+__UNION_PTR_ITEM_TREE_H__	union_ptr_item_tree.h	2;"	d
+__UNION_PTR_TREE_H__	union_ptr_tree.h	2;"	d
+__UNION_TREE_H__	union_tree.h	2;"	d
+__UNISTR_H__	unistr.h	2;"	d
+__VAR_TREE_H__	var_tree.h	2;"	d
+__binopt	expr_tree.cpp	/^static ptr<ExprTree> __binopt(int opt, ptr<ExprTree> lhs, ptr<ExprTree> rhs) {$/;"	f	file:
+__get_opt	expr_tree.cpp	/^static int __get_opt(ptr<Token> token) {$/;"	f	file:
+__lex_block_comment	lex.cpp	/^static void __lex_block_comment(Input &input) {$/;"	f	file:
+__lex_iden_or_keyword	lex.cpp	/^static ptr<Token> __lex_iden_or_keyword(Input &input, Obstack &pool) {$/;"	f	file:
+__lex_integer	lex.cpp	/^static ptr<Token> __lex_integer(Input &input, Obstack &pool) {$/;"	f	file:
+__lex_line_comment	lex.cpp	/^static void __lex_line_comment(Input &input) {$/;"	f	file:
+__lex_prec_keyword	lex.cpp	/^static ptr<Token> __lex_prec_keyword(Input &input, Obstack &pool) {$/;"	f	file:
+__lex_segment	lex.cpp	/^static ptr<Token> __lex_segment(Input &input, Obstack &pool) {$/;"	f	file:
+__lex_string	lex.cpp	/^static ptr<Token> __lex_string(Input &input, Obstack &pool) {$/;"	f	file:
+__map	lang.cpp	/^static std::unordered_map<const char*, ptr<Language>> __map;$/;"	v	file:
+__parse_binopt_rhs	expr_tree.cpp	/^static ptr<ExprTree> __parse_binopt_rhs(Parser *parser, ptr<ExprTree> lhs) {$/;"	f	file:
+__parse_primary	expr_tree.cpp	/^static ptr<ExprTree> __parse_primary(Parser *parser) {$/;"	f	file:
+__precs	expr_tree.cpp	/^static int __precs[EXPR_OPT_UNKNOWN] = {$/;"	v	file:
+_array	struct_item_tree.h	/^	ptr<RangeTree> _array;$/;"	m	class:StructItemTree
+_blocks	cpp_printer.h	/^	std::stack<int> _blocks;$/;"	m	class:CppPrinter
+_blocks	go_printer.h	/^	std::stack<int> _blocks;$/;"	m	class:GoPrinter
+_data	input.h	/^    char *_data;$/;"	m	class:InputFile
+_decl	type_tree.h	/^	ptr<StructTree> _decl;$/;"	m	class:TypeTree
+_decl	union_item_tree.h	/^	object<StructItemTree> _decl;$/;"	m	class:UnionItemTree
+_decl	union_ptr_item_tree.h	/^	ptr<StructTree> _decl;$/;"	m	class:UnionPtrItemTree
+_default	struct_item_tree.h	/^	ptr<ExprTree> _default;$/;"	m	class:StructItemTree
+_exprType	expr_tree.h	/^    int _exprType;$/;"	m	class:ExprTree
+_file	printer.h	/^	FILE *_file;$/;"	m	class:Printer
+_hash	unistr.h	/^    size_t _hash;$/;"	m	class:Unistr
+_head	lang.h	/^    std::stringstream _head;$/;"	m	class:Language
+_id	message_tree.h	/^	ptr<DefineTree> _id;$/;"	m	class:MessageTree
+_index	parser.h	/^    unsigned _index;$/;"	m	class:Parser
+_index	union_item_tree.h	/^	ptr<DefineTree> _index;$/;"	m	class:UnionItemTree
+_index	union_ptr_item_tree.h	/^	ptr<DefineTree> _index;$/;"	m	class:UnionPtrItemTree
+_inherited	struct_tree.h	/^    ptr<Tree> _inherited;$/;"	m	class:StructTree
+_input	parser.h	/^    Input &_input;$/;"	m	class:Parser
+_is_pointer	var_tree.h	/^    bool _is_pointer;$/;"	m	class:VarTree
+_key	union_ptr_tree.h	/^	ptr<StructItemTree> _key;$/;"	m	class:UnionPtrTree
+_key	union_tree.h	/^	ptr<StructItemTree> _key;$/;"	m	class:UnionTree
+_lex	parser.h	/^    object<Lex> _lex;$/;"	m	class:Parser
+_list	symtab.h	/^    std::list<ptr<Tree>> _list;$/;"	m	class:SymbolTable
+_loc	input.h	/^    Location _loc;$/;"	m	class:Input
+_loc	token.h	/^    Location _loc;$/;"	m	class:Token
+_map	symtab.h	/^    std::map<const char*, ptr<Tree>> _map;$/;"	m	class:SymbolTable
+_max	range_tree.h	/^	ptr<DefineTree> _max;$/;"	m	class:RangeTree
+_min	range_tree.h	/^	ptr<DefineTree> _min;$/;"	m	class:RangeTree
+_name	define_tree.h	/^    ptr<Token> _name;$/;"	m	class:DefineTree
+_name	lang.h	/^    const char *_name;$/;"	m	class:Language
+_name	message_tree.h	/^	ptr<Token> _name;$/;"	m	class:MessageTree
+_name	struct_item_tree.h	/^	ptr<Token> _name;$/;"	m	class:StructItemTree
+_name	struct_tree.h	/^    ptr<Token> _name;$/;"	m	class:StructTree
+_name	token.h	/^    ptr<Token> _name;$/;"	m	class:SegmentToken
+_name	union_ptr_tree.h	/^	ptr<Token> _name;$/;"	m	class:UnionPtrTree
+_name	union_tree.h	/^	ptr<Token> _name;$/;"	m	class:UnionTree
+_name	var_tree.h	/^    const char *_name;$/;"	m	class:VarTree
+_newline	input.h	/^    bool _newline;$/;"	m	class:InputFile
+_newline	printer.h	/^	bool _newline;$/;"	m	class:Printer
+_path	include_tree.h	/^	ptr<Path> _path;$/;"	m	class:IncludeTree
+_path	input.h	/^	ptr<Path> _path;$/;"	m	class:InputFile
+_phase	parser.h	/^    int _phase;$/;"	m	class:Parser
+_pool	unistr.cpp	/^object<Obstack> Unistr::_pool;$/;"	m	class:Unistr	file:
+_pool	unistr.h	/^    static object<Obstack> _pool;$/;"	m	class:Unistr
+_pos	input.h	/^    unsigned _pos;$/;"	m	class:InputFile
+_position	input.h	/^    Position _position;$/;"	m	class:InputFile
+_queue	parser.h	/^    ptr<Token> _queue[2];$/;"	m	class:Parser
+_range	struct_item_tree.h	/^	object<RangeTree> _range;$/;"	m	class:StructItemTree
+_req	message_tree.h	/^	ptr<StructTree> _req;$/;"	m	class:MessageTree
+_rsp	message_tree.h	/^	ptr<StructTree> _rsp;$/;"	m	class:MessageTree
+_searchPaths	input.h	/^	std::list<ptr<Path>> _searchPaths;$/;"	m	class:Input
+_serial_name	cpp_lang.h	/^    const char *_serial_name;$/;"	m	class:CppLang
+_serial_name	go_lang.h	/^    const char *_serial_name;$/;"	m	class:GoLang
+_set	unistr.cpp	/^std::unordered_set<Unistr, Unistr::hash> Unistr::_set;$/;"	m	class:Unistr	file:
+_set	unistr.h	/^    static std::unordered_set<Unistr, hash> _set;$/;"	m	class:Unistr
+_size	input.h	/^    unsigned _size;$/;"	m	class:InputFile
+_size	unistr.h	/^    size_t _size;$/;"	m	class:Unistr
+_skip_newline	parser.h	/^    bool _skip_newline;$/;"	m	class:Parser
+_stack	input.h	/^    std::list<InputFile> _stack;$/;"	m	class:Input
+_str	unistr.h	/^    char *_str;$/;"	m	class:Unistr
+_struct	union_ptr_tree.h	/^	StructTree *_struct;$/;"	m	class:UnionPtrTree
+_struct	union_tree.h	/^	StructTree *_struct;$/;"	m	class:UnionTree
+_symbols	parser.h	/^    SymbolTable &_symbols;$/;"	m	class:Parser
+_symbols	struct_tree.h	/^    std::list<ptr<Tree>> _symbols;$/;"	m	class:StructTree
+_symbols	union_ptr_tree.h	/^	std::list<ptr<UnionPtrItemTree>> _symbols;$/;"	m	class:UnionPtrTree
+_symbols	union_tree.h	/^	std::list<ptr<UnionItemTree>> _symbols;$/;"	m	class:UnionTree
+_tail	lang.h	/^    std::stringstream _tail;$/;"	m	class:Language
+_text	token.h	/^	const char *_text;$/;"	m	class:Token
+_text	token.h	/^    const char *_text;$/;"	m	class:IntegerToken
+_type	struct_item_tree.h	/^	object<TypeTree> _type;$/;"	m	class:StructItemTree
+_type	token.h	/^    int _type;$/;"	m	class:Token
+_type	tree.h	/^    int _type;$/;"	m	class:Tree
+_type	type_tree.h	/^	int _type;$/;"	m	class:TypeTree
+_type	unistr.h	/^    int _type;$/;"	m	class:Unistr
+_unserial_name	cpp_lang.h	/^    const char *_unserial_name;$/;"	m	class:CppLang
+_unserial_name	go_lang.h	/^    const char *_unserial_name;$/;"	m	class:GoLang
+_value	define_tree.h	/^    ptr<ExprTree> _value;$/;"	m	class:DefineTree
+_value	token.h	/^    bool _value;$/;"	m	class:BoolToken
+_value	token.h	/^    int64_t _value;$/;"	m	class:IntegerToken
+_varType	var_tree.h	/^    int _varType;$/;"	m	class:VarTree
+_vint	expr_tree.h	/^        int64_t _vint;$/;"	m	union:ExprTree::__anon3
+_vstr	expr_tree.h	/^        const char *_vstr;$/;"	m	union:ExprTree::__anon3
+a	test/test.cpp	/^    Foo a;$/;"	m	struct:Foo2	file:
+a	test/test.cpp	/^    int a;$/;"	m	struct:Foo	file:
+abs_builddir	Makefile	/^abs_builddir = \/home\/tanlei\/learning\/deps\/sscc$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/tanlei\/learning\/deps\/sscc$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/tanlei\/learning\/deps\/sscc$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/tanlei\/learning\/deps\/sscc$/;"	m
+ac_ct_AR	Makefile	/^ac_ct_AR = ar$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CXX	Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_DUMPBIN	Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_fn_c_check_func	configure	/^ac_fn_c_check_func ()$/;"	f
+ac_fn_c_check_header_compile	configure	/^ac_fn_c_check_header_compile ()$/;"	f
+ac_fn_c_try_compile	configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_c_try_cpp	configure	/^ac_fn_c_try_cpp ()$/;"	f
+ac_fn_c_try_link	configure	/^ac_fn_c_try_link ()$/;"	f
+ac_fn_c_try_run	configure	/^ac_fn_c_try_run ()$/;"	f
+ac_fn_cxx_try_compile	configure	/^ac_fn_cxx_try_compile ()$/;"	f
+ac_fn_cxx_try_cpp	configure	/^ac_fn_cxx_try_cpp ()$/;"	f
+ac_fn_cxx_try_link	configure	/^ac_fn_cxx_try_link ()$/;"	f
+addPath	input.cpp	/^void Input::addPath(ptr<Path> path) {$/;"	f	class:Input
+aix_post_process_depfile	depcomp	/^aix_post_process_depfile ()$/;"	f
+am__CONFIG_DISTCLEAN_FILES	Makefile	/^am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \\$/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__can_run_installinfo	Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__define_uniq_tagged_files	Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__distuninstallcheck_listfiles	Makefile	/^am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \\$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__is_gnu_make	Makefile	/^am__is_gnu_make = test -n '$(MAKEFILE_LIST)' && test -n '$(MAKELEVEL)'$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__make_dryrun	Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_running_with_option	Makefile	/^am__make_running_with_option = \\$/;"	m
+am__mv	Makefile	/^am__mv = mv -f$/;"	m
+am__post_remove_distdir	Makefile	/^am__post_remove_distdir = $(am__remove_distdir)$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__remove_distdir	Makefile	/^am__remove_distdir = \\$/;"	m
+am__tagged_files	Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) \\$/;"	m
+am__tar	Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__uniquify_input	Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__untar	Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__v_CXXLD_	Makefile	/^am__v_CXXLD_ = $(am__v_CXXLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CXXLD_0	Makefile	/^am__v_CXXLD_0 = @echo "  CXXLD   " $@;$/;"	m
+am__v_CXXLD_1	Makefile	/^am__v_CXXLD_1 = $/;"	m
+am__v_CXX_	Makefile	/^am__v_CXX_ = $(am__v_CXX_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CXX_0	Makefile	/^am__v_CXX_0 = @echo "  CXX     " $@;$/;"	m
+am__v_CXX_1	Makefile	/^am__v_CXX_1 = $/;"	m
+am__v_GEN_	Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_0	Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_1	Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_P_	Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_0	Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_1	Makefile	/^am__v_P_1 = :$/;"	m
+am__v_at_	Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_0	Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_1	Makefile	/^am__v_at_1 = $/;"	m
+am__v_lt_	Makefile	/^am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_lt_0	Makefile	/^am__v_lt_0 = --silent$/;"	m
+am__v_lt_1	Makefile	/^am__v_lt_1 = $/;"	m
+am_sscc_OBJECTS	Makefile	/^am_sscc_OBJECTS = sscc.$(OBJEXT) log.$(OBJEXT) input.$(OBJEXT) \\$/;"	m
+array	struct_item_tree.h	/^	ptr<RangeTree> array() const {$/;"	f	class:StructItemTree
+as_fn_append	config.status	/^  as_fn_append ()$/;"	f
+as_fn_append	configure	/^  as_fn_append ()$/;"	f
+as_fn_arith	config.status	/^  as_fn_arith ()$/;"	f
+as_fn_arith	configure	/^  as_fn_arith ()$/;"	f
+as_fn_error	config.status	/^as_fn_error ()$/;"	f
+as_fn_error	configure	/^as_fn_error ()$/;"	f
+as_fn_executable_p	config.status	/^as_fn_executable_p ()$/;"	f
+as_fn_executable_p	configure	/^as_fn_executable_p ()$/;"	f
+as_fn_exit	config.status	/^as_fn_exit ()$/;"	f
+as_fn_exit	configure	/^as_fn_exit ()$/;"	f
+as_fn_failure	configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_mkdir_p	config.status	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_ret_failure	configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_success	configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_set_status	config.status	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	configure	/^as_fn_set_status ()$/;"	f
+as_fn_success	configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_unset	config.status	/^as_fn_unset ()$/;"	f
+as_fn_unset	configure	/^as_fn_unset ()$/;"	f
+b	test/test.cpp	/^    int b;$/;"	m	struct:Foo	file:
+b	test/test.cpp	/^    int b;$/;"	m	struct:Foo2	file:
+begin	input.h	/^    Position begin;$/;"	m	struct:Location
+begin	struct_tree.h	/^    iterator begin() {$/;"	f	class:StructTree
+begin	symtab.h	/^    iterator begin() {$/;"	f	class:SymbolTable
+begin	union_ptr_tree.h	/^	iterator begin() {$/;"	f	class:UnionPtrTree
+begin	union_tree.h	/^	iterator begin() {$/;"	f	class:UnionTree
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+build	Makefile	/^build = x86_64-unknown-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = x86_64$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = x86_64-unknown-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = unknown$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+class_	cpp_printer.cpp	/^void CppPrinter::class_(const char *name, const char *inherited) {$/;"	f	class:CppPrinter
+class_	go_printer.cpp	/^void GoPrinter::class_(const char *name, const char *inherited) {$/;"	f	class:GoPrinter
+col	input.h	/^    unsigned col;$/;"	m	struct:Position
+cur	input.h	/^    int cur() {$/;"	f	class:Input
+cur	input.h	/^    int cur() {$/;"	f	class:InputFile
+cur	parser.cpp	/^ptr<Token> Parser::cur() {$/;"	f	class:Parser
+d	cpp_printer.cpp	/^void CppPrinter::d(const char *name, const char *fmt, ...) {$/;"	f	class:CppPrinter
+d	go_printer.cpp	/^void GoPrinter::d(const char *name, const char *fmt, ...) {$/;"	f	class:GoPrinter
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+decl	type_tree.h	/^	ptr<StructTree> decl() const {$/;"	f	class:TypeTree
+decl	union_item_tree.h	/^	ptr<StructItemTree> decl() const {$/;"	f	class:UnionItemTree
+decl	union_ptr_item_tree.h	/^	ptr<StructTree> decl() const {$/;"	f	class:UnionPtrItemTree
+defaultValue	struct_item_tree.h	/^	ptr<ExprTree> defaultValue() const {$/;"	f	class:StructItemTree
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+distcleancheck_listfiles	Makefile	/^distcleancheck_listfiles = find . -type f -print$/;"	m
+distdir	Makefile	/^distdir = $(PACKAGE)-$(VERSION)$/;"	m
+distuninstallcheck_listfiles	Makefile	/^distuninstallcheck_listfiles = find . -type f -print$/;"	m
+do_	cpp_printer.cpp	/^void CppPrinter::do_() {$/;"	f	class:CppPrinter
+do_	go_printer.cpp	/^void GoPrinter::do_() {$/;"	f	class:GoPrinter
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+dump	test/test.cpp	/^    virtual void dump(const char *, unsigned, FILE *) {$/;"	f	struct:ISerial
+dump	test/test.cpp	/^    virtual void dump(unsigned, FILE *) {$/;"	f	struct:ISerial
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+eat	input.h	/^    void eat() {$/;"	f	class:Input
+eat	input.h	/^    void eat() {$/;"	f	class:InputFile
+eat	parser.cpp	/^void Parser::eat() {$/;"	f	class:Parser
+eat	parser.cpp	/^void Parser::eat(Location &loc) {$/;"	f	class:Parser
+else_	cpp_printer.cpp	/^void CppPrinter::else_() {$/;"	f	class:CppPrinter
+else_	go_printer.cpp	/^void GoPrinter::else_() {$/;"	f	class:GoPrinter
+else_if_	cpp_printer.cpp	/^void CppPrinter::else_if_(const char *fmt, ...) {$/;"	f	class:CppPrinter
+else_if_	go_printer.cpp	/^void GoPrinter::else_if_(const char *fmt, ...) {$/;"	f	class:GoPrinter
+end	cpp_printer.cpp	/^void CppPrinter::end() {$/;"	f	class:CppPrinter
+end	cpp_printer.cpp	/^void CppPrinter::end(const char *fmt, ...) {$/;"	f	class:CppPrinter
+end	go_printer.cpp	/^void GoPrinter::end() {$/;"	f	class:GoPrinter
+end	go_printer.cpp	/^void GoPrinter::end(const char *fmt, ...) {$/;"	f	class:GoPrinter
+end	input.h	/^    Position end;$/;"	m	struct:Location
+end	struct_tree.h	/^    iterator end() {$/;"	f	class:StructTree
+end	symtab.h	/^    iterator end() {$/;"	f	class:SymbolTable
+end	union_ptr_tree.h	/^	iterator end() {$/;"	f	class:UnionPtrTree
+end	union_tree.h	/^	iterator end() {$/;"	f	class:UnionTree
+enum_	cpp_printer.cpp	/^void CppPrinter::enum_() {$/;"	f	class:CppPrinter
+enum_	go_printer.cpp	/^void GoPrinter::enum_() {$/;"	f	class:GoPrinter
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+exportSymbol	symtab.cpp	/^void SymbolTable::exportSymbol(ptr<Tree> tree) {$/;"	f	class:SymbolTable
+exprType	expr_tree.h	/^    int exprType() const {$/;"	f	class:ExprTree
+file	input.h	/^    const char *file;$/;"	m	struct:Position
+for_	cpp_printer.cpp	/^void CppPrinter::for_(const char *fmt, ...) {$/;"	f	class:CppPrinter
+for_	go_printer.cpp	/^void GoPrinter::for_(const char *fmt, ...) {$/;"	f	class:GoPrinter
+from_lua	test/test.cpp	/^    virtual bool from_lua(lua_State *sscc_L, int sscc_index) {$/;"	f	struct:ISerial
+func_append	config.status	/^func_append ()\\$/;"	f
+func_append	configure	/^func_append ()\\$/;"	f
+func_append	libtool	/^func_append ()$/;"	f
+func_append	ltmain.sh	/^func_append ()$/;"	f
+func_append_quoted	config.status	/^func_append_quoted ()\\$/;"	f
+func_append_quoted	configure	/^func_append_quoted ()\\$/;"	f
+func_append_quoted	libtool	/^func_append_quoted ()$/;"	f
+func_append_quoted	ltmain.sh	/^func_append_quoted ()$/;"	f
+func_arith	config.status	/^func_arith ()\\$/;"	f
+func_arith	configure	/^func_arith ()\\$/;"	f
+func_arith	libtool	/^func_arith ()$/;"	f
+func_arith	ltmain.sh	/^func_arith ()$/;"	f
+func_basename	config.status	/^func_basename ()\\$/;"	f
+func_basename	configure	/^func_basename ()\\$/;"	f
+func_basename	libtool	/^func_basename ()$/;"	f
+func_basename	ltmain.sh	/^func_basename ()$/;"	f
+func_check_version_match	libtool	/^func_check_version_match ()$/;"	f
+func_check_version_match	ltmain.sh	/^func_check_version_match ()$/;"	f
+func_cl_dashL	compile	/^func_cl_dashL ()$/;"	f
+func_cl_dashl	compile	/^func_cl_dashl ()$/;"	f
+func_cl_wrapper	compile	/^func_cl_wrapper ()$/;"	f
+func_config	libtool	/^func_config ()$/;"	f
+func_config	ltmain.sh	/^func_config ()$/;"	f
+func_convert_core_file_wine_to_w32	libtool	/^func_convert_core_file_wine_to_w32 ()$/;"	f
+func_convert_core_file_wine_to_w32	ltmain.sh	/^func_convert_core_file_wine_to_w32 ()$/;"	f
+func_convert_core_msys_to_w32	libtool	/^func_convert_core_msys_to_w32 ()$/;"	f
+func_convert_core_msys_to_w32	ltmain.sh	/^func_convert_core_msys_to_w32 ()$/;"	f
+func_convert_core_path_wine_to_w32	libtool	/^func_convert_core_path_wine_to_w32 ()$/;"	f
+func_convert_core_path_wine_to_w32	ltmain.sh	/^func_convert_core_path_wine_to_w32 ()$/;"	f
+func_convert_file_check	libtool	/^func_convert_file_check ()$/;"	f
+func_convert_file_check	ltmain.sh	/^func_convert_file_check ()$/;"	f
+func_convert_file_cygwin_to_w32	libtool	/^func_convert_file_cygwin_to_w32 ()$/;"	f
+func_convert_file_cygwin_to_w32	ltmain.sh	/^func_convert_file_cygwin_to_w32 ()$/;"	f
+func_convert_file_msys_to_cygwin	libtool	/^func_convert_file_msys_to_cygwin ()$/;"	f
+func_convert_file_msys_to_cygwin	ltmain.sh	/^func_convert_file_msys_to_cygwin ()$/;"	f
+func_convert_file_msys_to_w32	libtool	/^func_convert_file_msys_to_w32 ()$/;"	f
+func_convert_file_msys_to_w32	ltmain.sh	/^func_convert_file_msys_to_w32 ()$/;"	f
+func_convert_file_nix_to_cygwin	libtool	/^func_convert_file_nix_to_cygwin ()$/;"	f
+func_convert_file_nix_to_cygwin	ltmain.sh	/^func_convert_file_nix_to_cygwin ()$/;"	f
+func_convert_file_nix_to_w32	libtool	/^func_convert_file_nix_to_w32 ()$/;"	f
+func_convert_file_nix_to_w32	ltmain.sh	/^func_convert_file_nix_to_w32 ()$/;"	f
+func_convert_file_noop	libtool	/^func_convert_file_noop ()$/;"	f
+func_convert_file_noop	ltmain.sh	/^func_convert_file_noop ()$/;"	f
+func_convert_path_check	libtool	/^func_convert_path_check ()$/;"	f
+func_convert_path_check	ltmain.sh	/^func_convert_path_check ()$/;"	f
+func_convert_path_cygwin_to_w32	libtool	/^func_convert_path_cygwin_to_w32 ()$/;"	f
+func_convert_path_cygwin_to_w32	ltmain.sh	/^func_convert_path_cygwin_to_w32 ()$/;"	f
+func_convert_path_front_back_pathsep	libtool	/^func_convert_path_front_back_pathsep ()$/;"	f
+func_convert_path_front_back_pathsep	ltmain.sh	/^func_convert_path_front_back_pathsep ()$/;"	f
+func_convert_path_msys_to_cygwin	libtool	/^func_convert_path_msys_to_cygwin ()$/;"	f
+func_convert_path_msys_to_cygwin	ltmain.sh	/^func_convert_path_msys_to_cygwin ()$/;"	f
+func_convert_path_msys_to_w32	libtool	/^func_convert_path_msys_to_w32 ()$/;"	f
+func_convert_path_msys_to_w32	ltmain.sh	/^func_convert_path_msys_to_w32 ()$/;"	f
+func_convert_path_nix_to_cygwin	libtool	/^func_convert_path_nix_to_cygwin ()$/;"	f
+func_convert_path_nix_to_cygwin	ltmain.sh	/^func_convert_path_nix_to_cygwin ()$/;"	f
+func_convert_path_nix_to_w32	libtool	/^func_convert_path_nix_to_w32 ()$/;"	f
+func_convert_path_nix_to_w32	ltmain.sh	/^func_convert_path_nix_to_w32 ()$/;"	f
+func_convert_path_noop	libtool	/^func_convert_path_noop ()$/;"	f
+func_convert_path_noop	ltmain.sh	/^func_convert_path_noop ()$/;"	f
+func_cygming_dll_for_implib	libtool	/^func_cygming_dll_for_implib ()$/;"	f
+func_cygming_dll_for_implib	ltmain.sh	/^func_cygming_dll_for_implib ()$/;"	f
+func_cygming_dll_for_implib_fallback	libtool	/^func_cygming_dll_for_implib_fallback ()$/;"	f
+func_cygming_dll_for_implib_fallback	ltmain.sh	/^func_cygming_dll_for_implib_fallback ()$/;"	f
+func_cygming_dll_for_implib_fallback_core	libtool	/^func_cygming_dll_for_implib_fallback_core ()$/;"	f
+func_cygming_dll_for_implib_fallback_core	ltmain.sh	/^func_cygming_dll_for_implib_fallback_core ()$/;"	f
+func_cygming_gnu_implib_p	libtool	/^func_cygming_gnu_implib_p ()$/;"	f
+func_cygming_gnu_implib_p	ltmain.sh	/^func_cygming_gnu_implib_p ()$/;"	f
+func_cygming_ms_implib_p	libtool	/^func_cygming_ms_implib_p ()$/;"	f
+func_cygming_ms_implib_p	ltmain.sh	/^func_cygming_ms_implib_p ()$/;"	f
+func_cygpath	libtool	/^func_cygpath ()$/;"	f
+func_cygpath	ltmain.sh	/^func_cygpath ()$/;"	f
+func_dirname	config.status	/^func_dirname ()\\$/;"	f
+func_dirname	configure	/^func_dirname ()\\$/;"	f
+func_dirname	libtool	/^func_dirname ()$/;"	f
+func_dirname	ltmain.sh	/^func_dirname ()$/;"	f
+func_dirname_and_basename	config.status	/^func_dirname_and_basename ()\\$/;"	f
+func_dirname_and_basename	configure	/^func_dirname_and_basename ()\\$/;"	f
+func_dirname_and_basename	libtool	/^func_dirname_and_basename ()$/;"	f
+func_dirname_and_basename	ltmain.sh	/^func_dirname_and_basename ()$/;"	f
+func_echo	libtool	/^func_echo ()$/;"	f
+func_echo	ltmain.sh	/^func_echo ()$/;"	f
+func_echo_all	configure	/^func_echo_all ()$/;"	f
+func_echo_all	libtool	/^func_echo_all ()$/;"	f
+func_echo_all	ltmain.sh	/^func_echo_all ()$/;"	f
+func_emit_cwrapperexe_src	libtool	/^func_emit_cwrapperexe_src ()$/;"	f
+func_emit_cwrapperexe_src	ltmain.sh	/^func_emit_cwrapperexe_src ()$/;"	f
+func_emit_wrapper	libtool	/^func_emit_wrapper ()$/;"	f
+func_emit_wrapper	ltmain.sh	/^func_emit_wrapper ()$/;"	f
+func_enable_tag	libtool	/^func_enable_tag ()$/;"	f
+func_enable_tag	ltmain.sh	/^func_enable_tag ()$/;"	f
+func_error	libtool	/^func_error ()$/;"	f
+func_error	ltmain.sh	/^func_error ()$/;"	f
+func_exec_program	libtool	/^func_exec_program ()$/;"	f
+func_exec_program	ltmain.sh	/^func_exec_program ()$/;"	f
+func_exec_program	sscc	/^func_exec_program ()$/;"	f
+func_exec_program_core	libtool	/^func_exec_program_core ()$/;"	f
+func_exec_program_core	ltmain.sh	/^func_exec_program_core ()$/;"	f
+func_exec_program_core	sscc	/^func_exec_program_core ()$/;"	f
+func_execute_cmds	libtool	/^func_execute_cmds ()$/;"	f
+func_execute_cmds	ltmain.sh	/^func_execute_cmds ()$/;"	f
+func_extract_an_archive	libtool	/^func_extract_an_archive ()$/;"	f
+func_extract_an_archive	ltmain.sh	/^func_extract_an_archive ()$/;"	f
+func_extract_archives	libtool	/^func_extract_archives ()$/;"	f
+func_extract_archives	ltmain.sh	/^func_extract_archives ()$/;"	f
+func_fallback_echo	config.status	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	configure	/^  func_fallback_echo ()$/;"	f
+func_fallback_echo	configure	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	libtool	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	ltmain.sh	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	sscc	/^func_fallback_echo ()$/;"	f
+func_fatal_configuration	libtool	/^func_fatal_configuration ()$/;"	f
+func_fatal_configuration	ltmain.sh	/^func_fatal_configuration ()$/;"	f
+func_fatal_error	libtool	/^func_fatal_error ()$/;"	f
+func_fatal_error	ltmain.sh	/^func_fatal_error ()$/;"	f
+func_fatal_help	libtool	/^func_fatal_help ()$/;"	f
+func_fatal_help	ltmain.sh	/^func_fatal_help ()$/;"	f
+func_features	libtool	/^func_features ()$/;"	f
+func_features	ltmain.sh	/^func_features ()$/;"	f
+func_file_conv	compile	/^func_file_conv ()$/;"	f
+func_generate_dlsyms	libtool	/^func_generate_dlsyms ()$/;"	f
+func_generate_dlsyms	ltmain.sh	/^func_generate_dlsyms ()$/;"	f
+func_grep	libtool	/^func_grep ()$/;"	f
+func_grep	ltmain.sh	/^func_grep ()$/;"	f
+func_help	libtool	/^func_help ()$/;"	f
+func_help	ltmain.sh	/^func_help ()$/;"	f
+func_infer_tag	libtool	/^func_infer_tag ()$/;"	f
+func_infer_tag	ltmain.sh	/^func_infer_tag ()$/;"	f
+func_init_to_host_path_cmd	libtool	/^func_init_to_host_path_cmd ()$/;"	f
+func_init_to_host_path_cmd	ltmain.sh	/^func_init_to_host_path_cmd ()$/;"	f
+func_lalib_p	libtool	/^func_lalib_p ()$/;"	f
+func_lalib_p	ltmain.sh	/^func_lalib_p ()$/;"	f
+func_lalib_unsafe_p	libtool	/^func_lalib_unsafe_p ()$/;"	f
+func_lalib_unsafe_p	ltmain.sh	/^func_lalib_unsafe_p ()$/;"	f
+func_len	config.status	/^func_len ()\\$/;"	f
+func_len	configure	/^func_len ()\\$/;"	f
+func_len	libtool	/^func_len ()$/;"	f
+func_len	ltmain.sh	/^func_len ()$/;"	f
+func_lo2o	config.status	/^func_lo2o ()\\$/;"	f
+func_lo2o	configure	/^func_lo2o ()\\$/;"	f
+func_lo2o	libtool	/^func_lo2o ()$/;"	f
+func_lo2o	ltmain.sh	/^func_lo2o ()$/;"	f
+func_lt_dump_args	libtool	/^func_lt_dump_args ()$/;"	f
+func_lt_dump_args	ltmain.sh	/^func_lt_dump_args ()$/;"	f
+func_lt_dump_args	sscc	/^func_lt_dump_args ()$/;"	f
+func_ltwrapper_executable_p	libtool	/^func_ltwrapper_executable_p ()$/;"	f
+func_ltwrapper_executable_p	ltmain.sh	/^func_ltwrapper_executable_p ()$/;"	f
+func_ltwrapper_p	libtool	/^func_ltwrapper_p ()$/;"	f
+func_ltwrapper_p	ltmain.sh	/^func_ltwrapper_p ()$/;"	f
+func_ltwrapper_script_p	libtool	/^func_ltwrapper_script_p ()$/;"	f
+func_ltwrapper_script_p	ltmain.sh	/^func_ltwrapper_script_p ()$/;"	f
+func_ltwrapper_scriptname	libtool	/^func_ltwrapper_scriptname ()$/;"	f
+func_ltwrapper_scriptname	ltmain.sh	/^func_ltwrapper_scriptname ()$/;"	f
+func_missing_arg	libtool	/^func_missing_arg ()$/;"	f
+func_missing_arg	ltmain.sh	/^func_missing_arg ()$/;"	f
+func_mkdir_p	libtool	/^func_mkdir_p ()$/;"	f
+func_mkdir_p	ltmain.sh	/^func_mkdir_p ()$/;"	f
+func_mktempdir	libtool	/^func_mktempdir ()$/;"	f
+func_mktempdir	ltmain.sh	/^func_mktempdir ()$/;"	f
+func_mode_compile	libtool	/^func_mode_compile ()$/;"	f
+func_mode_compile	ltmain.sh	/^func_mode_compile ()$/;"	f
+func_mode_execute	libtool	/^func_mode_execute ()$/;"	f
+func_mode_execute	ltmain.sh	/^func_mode_execute ()$/;"	f
+func_mode_finish	libtool	/^func_mode_finish ()$/;"	f
+func_mode_finish	ltmain.sh	/^func_mode_finish ()$/;"	f
+func_mode_help	libtool	/^func_mode_help ()$/;"	f
+func_mode_help	ltmain.sh	/^func_mode_help ()$/;"	f
+func_mode_install	libtool	/^func_mode_install ()$/;"	f
+func_mode_install	ltmain.sh	/^func_mode_install ()$/;"	f
+func_mode_link	libtool	/^func_mode_link ()$/;"	f
+func_mode_link	ltmain.sh	/^func_mode_link ()$/;"	f
+func_mode_uninstall	libtool	/^func_mode_uninstall ()$/;"	f
+func_mode_uninstall	ltmain.sh	/^func_mode_uninstall ()$/;"	f
+func_normal_abspath	libtool	/^func_normal_abspath ()$/;"	f
+func_normal_abspath	ltmain.sh	/^func_normal_abspath ()$/;"	f
+func_parse_lt_options	libtool	/^func_parse_lt_options ()$/;"	f
+func_parse_lt_options	ltmain.sh	/^func_parse_lt_options ()$/;"	f
+func_parse_lt_options	sscc	/^func_parse_lt_options ()$/;"	f
+func_quote_for_eval	libtool	/^func_quote_for_eval ()$/;"	f
+func_quote_for_eval	ltmain.sh	/^func_quote_for_eval ()$/;"	f
+func_quote_for_expand	libtool	/^func_quote_for_expand ()$/;"	f
+func_quote_for_expand	ltmain.sh	/^func_quote_for_expand ()$/;"	f
+func_relative_path	libtool	/^func_relative_path ()$/;"	f
+func_relative_path	ltmain.sh	/^func_relative_path ()$/;"	f
+func_replace_sysroot	libtool	/^func_replace_sysroot ()$/;"	f
+func_replace_sysroot	ltmain.sh	/^func_replace_sysroot ()$/;"	f
+func_resolve_sysroot	libtool	/^func_resolve_sysroot ()$/;"	f
+func_resolve_sysroot	ltmain.sh	/^func_resolve_sysroot ()$/;"	f
+func_show_eval	libtool	/^func_show_eval ()$/;"	f
+func_show_eval	ltmain.sh	/^func_show_eval ()$/;"	f
+func_show_eval_locale	libtool	/^func_show_eval_locale ()$/;"	f
+func_show_eval_locale	ltmain.sh	/^func_show_eval_locale ()$/;"	f
+func_source	libtool	/^func_source ()$/;"	f
+func_source	ltmain.sh	/^func_source ()$/;"	f
+func_split_long_opt	config.status	/^func_split_long_opt ()\\$/;"	f
+func_split_long_opt	configure	/^func_split_long_opt ()\\$/;"	f
+func_split_long_opt	libtool	/^func_split_long_opt ()$/;"	f
+func_split_long_opt	ltmain.sh	/^func_split_long_opt ()$/;"	f
+func_split_short_opt	config.status	/^func_split_short_opt ()\\$/;"	f
+func_split_short_opt	configure	/^func_split_short_opt ()\\$/;"	f
+func_split_short_opt	libtool	/^func_split_short_opt ()$/;"	f
+func_split_short_opt	ltmain.sh	/^func_split_short_opt ()$/;"	f
+func_stripname	config.status	/^func_stripname ()\\$/;"	f
+func_stripname	configure	/^func_stripname ()\\$/;"	f
+func_stripname	libtool	/^func_stripname ()$/;"	f
+func_stripname	ltmain.sh	/^func_stripname ()$/;"	f
+func_stripname_cnf	configure	/^func_stripname_cnf ()$/;"	f
+func_to_host_file	libtool	/^func_to_host_file ()$/;"	f
+func_to_host_file	ltmain.sh	/^func_to_host_file ()$/;"	f
+func_to_host_path	libtool	/^func_to_host_path ()$/;"	f
+func_to_host_path	ltmain.sh	/^func_to_host_path ()$/;"	f
+func_to_tool_file	libtool	/^func_to_tool_file ()$/;"	f
+func_to_tool_file	ltmain.sh	/^func_to_tool_file ()$/;"	f
+func_tr_sh	libtool	/^func_tr_sh ()$/;"	f
+func_tr_sh	ltmain.sh	/^func_tr_sh ()$/;"	f
+func_usage	libtool	/^func_usage ()$/;"	f
+func_usage	ltmain.sh	/^func_usage ()$/;"	f
+func_verbose	libtool	/^func_verbose ()$/;"	f
+func_verbose	ltmain.sh	/^func_verbose ()$/;"	f
+func_version	libtool	/^func_version ()$/;"	f
+func_version	ltmain.sh	/^func_version ()$/;"	f
+func_warning	libtool	/^func_warning ()$/;"	f
+func_warning	ltmain.sh	/^func_warning ()$/;"	f
+func_win32_import_lib_p	libtool	/^func_win32_import_lib_p ()$/;"	f
+func_win32_import_lib_p	ltmain.sh	/^func_win32_import_lib_p ()$/;"	f
+func_win32_libid	libtool	/^func_win32_libid ()$/;"	f
+func_win32_libid	ltmain.sh	/^func_win32_libid ()$/;"	f
+func_write_libtool_object	libtool	/^func_write_libtool_object ()$/;"	f
+func_write_libtool_object	ltmain.sh	/^func_write_libtool_object ()$/;"	f
+func_xform	config.status	/^func_xform ()\\$/;"	f
+func_xform	configure	/^func_xform ()\\$/;"	f
+func_xform	libtool	/^func_xform ()$/;"	f
+func_xform	ltmain.sh	/^func_xform ()$/;"	f
+function_	cpp_printer.cpp	/^void CppPrinter::function_(const char *fmt, ...) {$/;"	f	class:CppPrinter
+function_	go_printer.cpp	/^void GoPrinter::function_(const char *fmt, ...) {$/;"	f	class:GoPrinter
+get	lang.cpp	/^Language *Language::get(const char *name) {$/;"	f	class:Language
+get	lex.cpp	/^ptr<Token> Lex::get(Input &input) {$/;"	f	class:Lex
+get	symtab.cpp	/^ptr<Tree> SymbolTable::get(const char *name) {$/;"	f	class:SymbolTable
+get	unistr.cpp	/^const Unistr &Unistr::get(const char *str, size_t size, int type, bool trim) {$/;"	f	class:Unistr
+getItem	struct_tree.cpp	/^ptr<Tree> StructTree::getItem(const char *name, bool find_union) {$/;"	f	class:StructTree
+give_advice	missing	/^give_advice ()$/;"	f
+hash	unistr.h	/^    struct hash {$/;"	s	class:Unistr
+head	lang.h	/^    std::stringstream &head() {$/;"	f	class:Language
+host	Makefile	/^host = x86_64-unknown-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = x86_64$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = x86_64-unknown-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = unknown$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+id	message_tree.h	/^	ptr<DefineTree> id() const {$/;"	f	class:MessageTree
+if_	cpp_printer.cpp	/^void CppPrinter::if_(const char *fmt, ...) {$/;"	f	class:CppPrinter
+if_	go_printer.cpp	/^void GoPrinter::if_(const char *fmt, ...) {$/;"	f	class:GoPrinter
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+indent	printer.h	/^	unsigned indent;$/;"	m	class:Printer
+index	union_item_tree.h	/^	ptr<DefineTree> index() const {$/;"	f	class:UnionItemTree
+index	union_ptr_item_tree.h	/^	ptr<DefineTree> index() const {$/;"	f	class:UnionPtrItemTree
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+inherited	struct_tree.h	/^    ptr<StructTree> inherited() const {$/;"	f	class:StructTree
+init	token.cpp	/^void Token::init()$/;"	f	class:Token
+input	parser.h	/^    Input &input() {$/;"	f	class:Parser
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/tanlei\/learning\/deps\/sscc\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+is_eol	token.h	/^    bool is_eol() const {$/;"	f	class:Token
+is_iden	token.h	/^    bool is_iden() const {$/;"	f	class:Token
+is_iden_char	lex.cpp	/^inline bool is_iden_char(int c) {$/;"	f
+is_iden_first_char	lex.cpp	/^inline bool is_iden_first_char(int c) {$/;"	f
+is_keyword	token.h	/^    bool is_keyword() const {$/;"	f	class:Token
+is_keyword	token.h	/^inline bool is_keyword(int type) {$/;"	f
+is_newline	input.h	/^    bool is_newline() const {$/;"	f	class:Input
+is_pointer	var_tree.h	/^    bool is_pointer() const {$/;"	f	class:VarTree
+is_root	input.h	/^	bool is_root() const {$/;"	f	class:Input
+iterator	struct_tree.h	/^    typedef std::list<ptr<Tree>>::iterator iterator;$/;"	t	class:StructTree
+iterator	symtab.h	/^    typedef std::list<ptr<Tree>>::iterator iterator;$/;"	t	class:SymbolTable
+iterator	union_ptr_tree.h	/^	typedef std::list<ptr<UnionPtrItemTree>>::iterator iterator;$/;"	t	class:UnionPtrTree
+iterator	union_tree.h	/^	typedef std::list<ptr<UnionItemTree>>::iterator iterator;$/;"	t	class:UnionTree
+key	union_ptr_tree.h	/^	ptr<StructItemTree> key() const {$/;"	f	class:UnionPtrTree
+key	union_tree.h	/^	ptr<StructItemTree> key() const {$/;"	f	class:UnionTree
+keyword_text	token.h	/^inline const char *keyword_text(int type) {$/;"	f
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+line	input.h	/^    unsigned line;$/;"	m	struct:Position
+load	input.cpp	/^bool InputFile::load(ptr<Path> path) {$/;"	f	class:InputFile
+load	input.cpp	/^ptr<Path> Input::load(ptr<Path> path, bool search) {$/;"	f	class:Input
+loc	input.h	/^    const Location &loc() const {$/;"	f	class:Input
+loc	token.h	/^    const Location &loc() const {$/;"	f	class:Token
+loc	tree.h	/^    Location loc;$/;"	m	class:Tree
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+log_error	log.cpp	/^void log_error(const Location &loc, const char *fmt, ...)$/;"	f
+log_error	log.cpp	/^void log_error(const char *fmt, ...)$/;"	f
+log_error	log.h	7;"	d
+log_expect	log.cpp	/^void log_expect(const Location &loc, const char *fmt, ...)$/;"	f
+log_fail	log.cpp	/^void log_fail(const char *fmt, ...)$/;"	f
+log_fail	log.h	9;"	d
+log_info	log.cpp	/^void log_info(const char *fmt, ...)$/;"	f
+log_info	log.h	8;"	d
+log_verror	log.cpp	/^void log_verror(const Location &loc, const char *fmt, va_list ap)$/;"	f
+log_vexpect	log.cpp	/^void log_vexpect(const Location &loc, const char *fmt, va_list ap)$/;"	f
+look	input.h	/^    int look() {$/;"	f	class:Input
+look	input.h	/^    int look() {$/;"	f	class:InputFile
+look	parser.cpp	/^ptr<Token> Parser::look() {$/;"	f	class:Parser
+main	config.guess	/^		main()$/;"	f
+main	config.guess	/^	main ()$/;"	f
+main	config.guess	/^main ()$/;"	f
+main	sscc.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	test/test.cpp	/^int main(int argc, char **argv) {$/;"	f
+make_dummy_depfile	depcomp	/^make_dummy_depfile ()$/;"	f
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mark_begin	input.h	/^    void mark_begin() {$/;"	f	class:Input
+mark_end	input.h	/^    void mark_end() {$/;"	f	class:Input
+max	range_tree.h	/^	ptr<DefineTree> max() const {$/;"	f	class:RangeTree
+message	struct_tree.h	/^	MessageTree *message;$/;"	m	class:StructTree
+min	range_tree.h	/^	ptr<DefineTree> min() const {$/;"	f	class:RangeTree
+mkdir_p	Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+name	define_tree.h	/^    ptr<Token> name() const {$/;"	f	class:DefineTree
+name	lang.h	/^    const char *name() const {$/;"	f	class:Language
+name	message_tree.h	/^	ptr<Token> name() const {$/;"	f	class:MessageTree
+name	struct_item_tree.h	/^	ptr<Token> name() const {$/;"	f	class:StructItemTree
+name	struct_tree.h	/^	void name(ptr<Token> value) {$/;"	f	class:StructTree
+name	struct_tree.h	/^    ptr<Token> name() const {$/;"	f	class:StructTree
+name	token.h	/^    const Token *name() const {$/;"	f	class:SegmentToken
+name	union_ptr_tree.h	/^	ptr<Token> name() const {$/;"	f	class:UnionPtrTree
+name	union_tree.h	/^	ptr<Token> name() const {$/;"	f	class:UnionTree
+name	var_tree.h	/^    const char *name() const {$/;"	f	class:VarTree
+noinst_PROGRAMS	Makefile	/^noinst_PROGRAMS = sscc$(EXEEXT)$/;"	m
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+open	printer.cpp	/^void Printer::open(FILE *file) {$/;"	f	class:Printer
+open	printer.cpp	/^void Printer::open(const char *filename) {$/;"	f	class:Printer
+operator !=	token.h	/^    bool operator!=(int c) const {$/;"	f	class:Token
+operator ()	unistr.h	/^        size_t operator()(const Unistr &str) const { $/;"	f	struct:Unistr::hash
+operator <<	input.h	/^    Location &operator<<(const Location &loc) {$/;"	f	struct:Location
+operator <<	input.h	/^    Location &operator<<(const Position &pos) {$/;"	f	struct:Location
+operator ==	token.h	/^    bool operator==(int c) const {$/;"	f	class:Token
+operator ==	unistr.h	/^    bool operator==(const Unistr &x) const {$/;"	f	class:Unistr
+operator const char*	unistr.h	/^    operator const char*() const {$/;"	f	class:Unistr
+option	cpp_lang.cpp	/^void CppLang::option(const char *name, ptr<Token> value) {$/;"	f	class:CppLang
+option	go_lang.cpp	/^void GoLang::option(const char *name, ptr<Token> value) {$/;"	f	class:GoLang
+option	luavar_lang.cpp	/^void LuaVarLang::option(const char *name, ptr<Token> value) {$/;"	f	class:LuaVarLang
+override	cpp_lang.h	/^    void option(const char *name, ptr<Token> value) override;$/;"	m	class:CppLang
+override	cpp_lang.h	/^    void print(SymbolTable &symbols, FILE *file) override;$/;"	m	class:CppLang
+override	define_tree.h	/^    void parse(Parser *parser) override;$/;"	m	class:DefineTree
+override	expr_tree.h	/^    void parse(Parser *parser) override;$/;"	m	class:ExprTree
+override	go_lang.h	/^    void option(const char *name, ptr<Token> value) override;$/;"	m	class:GoLang
+override	go_lang.h	/^    void print(SymbolTable &symbols, FILE *file) override;$/;"	m	class:GoLang
+override	include_tree.h	/^	void parse(Parser *parser) override;$/;"	m	class:IncludeTree
+override	luavar_lang.h	/^    void option(const char *name, ptr<Token> value) override;$/;"	m	class:LuaVarLang
+override	luavar_lang.h	/^    void print(SymbolTable &symbols, FILE *file) override;$/;"	m	class:LuaVarLang
+override	message_tree.h	/^	void parse(Parser *parser) override;$/;"	m	class:MessageTree
+override	range_tree.h	/^	void parse(Parser *parser) override;$/;"	m	class:RangeTree
+override	struct_item_tree.h	/^    void parse(Parser *parser) override;$/;"	m	class:StructItemTree
+override	struct_tree.h	/^    void parse(Parser *parser) override;$/;"	m	class:StructTree
+override	type_tree.h	/^	void parse(Parser *parser) override;$/;"	m	class:TypeTree
+override	union_item_tree.h	/^	void parse(Parser *parser) override;$/;"	m	class:UnionItemTree
+override	union_ptr_item_tree.h	/^	void parse(Parser *parser) override;$/;"	m	class:UnionPtrItemTree
+override	union_ptr_tree.h	/^	void parse(Parser *parser) override;$/;"	m	class:UnionPtrTree
+override	union_tree.h	/^	void parse(Parser *parser) override;$/;"	m	class:UnionTree
+override	var_tree.h	/^    void parse(Parser *parser) override;$/;"	m	class:VarTree
+p	cpp_printer.cpp	/^void CppPrinter::p(const char *fmt, ...) {$/;"	f	class:CppPrinter
+p	go_printer.cpp	/^void GoPrinter::p(const char *fmt, ...) {$/;"	f	class:GoPrinter
+parse	define_tree.cpp	/^void DefineTree::parse(Parser *parser) $/;"	f	class:DefineTree
+parse	expr_tree.cpp	/^void ExprTree::parse(Parser *parser)$/;"	f	class:ExprTree
+parse	include_tree.cpp	/^void IncludeTree::parse(Parser *parser) {$/;"	f	class:IncludeTree
+parse	message_tree.cpp	/^void MessageTree::parse(Parser *parser) {$/;"	f	class:MessageTree
+parse	parser.cpp	/^bool Parser::parse() {$/;"	f	class:Parser
+parse	range_tree.cpp	/^void RangeTree::parse(Parser *parser) {$/;"	f	class:RangeTree
+parse	struct_item_tree.cpp	/^void StructItemTree::parse(Parser *parser) {$/;"	f	class:StructItemTree
+parse	struct_tree.cpp	/^void StructTree::parse(Parser *parser) $/;"	f	class:StructTree
+parse	type_tree.cpp	/^void TypeTree::parse(Parser *parser) {$/;"	f	class:TypeTree
+parse	union_item_tree.cpp	/^void UnionItemTree::parse(Parser *parser) {$/;"	f	class:UnionItemTree
+parse	union_ptr_item_tree.cpp	/^void UnionPtrItemTree::parse(Parser *parser) {$/;"	f	class:UnionPtrItemTree
+parse	union_ptr_tree.cpp	/^void UnionPtrTree::parse(Parser *parser) {$/;"	f	class:UnionPtrTree
+parse	union_tree.cpp	/^void UnionTree::parse(Parser *parser) {$/;"	f	class:UnionTree
+parse	var_tree.cpp	/^void VarTree::parse(Parser *parser)$/;"	f	class:VarTree
+parseBody	struct_tree.cpp	/^void StructTree::parseBody(Parser *parser) {$/;"	f	class:StructTree
+parseInherited	struct_tree.cpp	/^void StructTree::parseInherited(Parser *parser, ptr<StructTree> inherited) {$/;"	f	class:StructTree
+parseItems	struct_tree.cpp	/^void StructTree::parseItems(Parser *parser) {$/;"	f	class:StructTree
+parseUnion	struct_tree.cpp	/^void StructTree::parseUnion(Parser *parser) {$/;"	f	class:StructTree
+parseUnionPtr	struct_tree.cpp	/^void StructTree::parseUnionPtr(Parser *parser) {$/;"	f	class:StructTree
+parse_body	parser.cpp	/^void Parser::parse_body(ptr<Token> token) {$/;"	f	class:Parser
+parse_enum	parser.cpp	/^void Parser::parse_enum() {$/;"	f	class:Parser
+parse_extern	parser.cpp	/^void Parser::parse_extern() {$/;"	f	class:Parser
+parse_head	parser.cpp	/^void Parser::parse_head(ptr<Token> token) {$/;"	f	class:Parser
+parse_raw	parser.cpp	/^void Parser::parse_raw(std::stringstream *stream) {$/;"	f	class:Parser
+parse_seg	parser.cpp	/^void Parser::parse_seg(ptr<Token> token) {$/;"	f	class:Parser
+parse_tail	parser.cpp	/^void Parser::parse_tail(ptr<Token> token) {$/;"	f	class:Parser
+path	include_tree.h	/^	ptr<Path> path() const {$/;"	f	class:IncludeTree
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+phase	parser.h	/^    int phase() const {$/;"	f	class:Parser
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/sscc$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/sscc$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/sscc$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/sscc$/;"	m
+pos	input.h	/^    const Position &pos() const {$/;"	f	class:Input
+prase_option	parser.cpp	/^void Parser::prase_option() {$/;"	f	class:Parser
+prefix	Makefile	/^prefix = \/home\/tanlei\/learning\/deps\/bin$/;"	m
+print	cpp_lang.cpp	/^void CppLang::print(SymbolTable &symbols, FILE *file) {$/;"	f	class:CppLang
+print	go_lang.cpp	/^void GoLang::print(SymbolTable &symbols, FILE *file) {$/;"	f	class:GoLang
+print	luavar_lang.cpp	/^void LuaVarLang::print(SymbolTable &symbols, FILE *file) {$/;"	f	class:LuaVarLang
+print	printer.cpp	/^void Printer::print(const char *fmt, ...) {$/;"	f	class:Printer
+print_array_dump	cpp_lang.cpp	/^void CppLang::print_array_dump(CppPrinter &printer, ptr<StructItemTree> tree, const char *name) {$/;"	f	class:CppLang
+print_array_dump	go_lang.cpp	/^void GoLang::print_array_dump(GoPrinter &printer, ptr<StructItemTree> tree, const char *name) {$/;"	f	class:GoLang
+print_array_fromlua	cpp_lang.cpp	/^void CppLang::print_array_fromlua(CppPrinter &printer, ptr<StructItemTree> tree, const char *name) {$/;"	f	class:CppLang
+print_array_serial	cpp_lang.cpp	/^void CppLang::print_array_serial(CppPrinter &printer, ptr<StructItemTree> tree, const char *name) {$/;"	f	class:CppLang
+print_array_serial	go_lang.cpp	/^void GoLang::print_array_serial(GoPrinter &printer, ptr<StructItemTree> tree, const char *name) {$/;"	f	class:GoLang
+print_array_tolua	cpp_lang.cpp	/^void CppLang::print_array_tolua(CppPrinter &printer, ptr<StructItemTree> tree, const char *name) {$/;"	f	class:CppLang
+print_array_unserial	cpp_lang.cpp	/^void CppLang::print_array_unserial(CppPrinter &printer, ptr<StructItemTree> tree, const char *name) {$/;"	f	class:CppLang
+print_array_unserial	go_lang.cpp	/^void GoLang::print_array_unserial(GoPrinter &printer, ptr<StructItemTree> tree, const char *name) {$/;"	f	class:GoLang
+print_base_var_dump	cpp_lang.cpp	/^void CppLang::print_base_var_dump(CppPrinter &printer, ptr<StructItemTree> tree, const char *name) {$/;"	f	class:CppLang
+print_base_var_dump	go_lang.cpp	/^void CppLang::print_base_var_dump(CppPrinter &printer, ptr<StructItemTree> tree, const char *name) {$/;"	f	class:CppLang
+print_base_var_fromlua	cpp_lang.cpp	/^void CppLang::print_base_var_fromlua(CppPrinter &printer, ptr<StructItemTree> tree, const char *name) {$/;"	f	class:CppLang
+print_base_var_serial	cpp_lang.cpp	/^void CppLang::print_base_var_serial(CppPrinter &printer, ptr<StructItemTree> tree, const char *name) {$/;"	f	class:CppLang
+print_base_var_serial	go_lang.cpp	/^void GoLang::print_base_var_serial(GoPrinter &printer, ptr<StructItemTree> tree, const char *name) {$/;"	f	class:GoLang
+print_base_var_tolua	cpp_lang.cpp	/^void CppLang::print_base_var_tolua(CppPrinter &printer, ptr<StructItemTree> tree, const char *name) {$/;"	f	class:CppLang
+print_base_var_unserial	cpp_lang.cpp	/^void CppLang::print_base_var_unserial(CppPrinter &printer, ptr<StructItemTree> tree, const char *name) {$/;"	f	class:CppLang
+print_base_var_unserial	go_lang.cpp	/^void GoLang::print_base_var_unserial(GoPrinter &printer, ptr<StructItemTree> tree, const char *name) {$/;"	f	class:GoLang
+print_constructor	cpp_lang.cpp	/^void CppLang::print_constructor(CppPrinter &printer, ptr<StructTree> tree) {$/;"	f	class:CppLang
+print_constructor	go_lang.cpp	/^void GoLang::print_constructor(GoPrinter &printer, ptr<StructTree> tree) {$/;"	f	class:GoLang
+print_define	cpp_lang.cpp	/^void CppLang::print_define(CppPrinter &printer, ptr<DefineTree> tree) {$/;"	f	class:CppLang
+print_define	go_lang.cpp	/^void GoLang::print_define(GoPrinter &printer, ptr<DefineTree> tree) {$/;"	f	class:GoLang
+print_dump	cpp_lang.cpp	/^void CppLang::print_dump(CppPrinter &printer, ptr<StructTree> tree) {$/;"	f	class:CppLang
+print_dump	go_lang.cpp	/^void GoLang::print_dump(GoPrinter &printer, ptr<StructTree> tree) {$/;"	f	class:GoLang
+print_fromlua	cpp_lang.cpp	/^void CppLang::print_fromlua(CppPrinter &printer, ptr<StructTree> tree) {$/;"	f	class:CppLang
+print_include	cpp_lang.cpp	/^void CppLang::print_include(CppPrinter &printer, ptr<IncludeTree> tree) {$/;"	f	class:CppLang
+print_include	go_lang.cpp	/^void GoLang::print_include(GoPrinter &printer, ptr<IncludeTree> tree) {$/;"	f	class:GoLang
+print_indent	cpp_lang.cpp	/^void CppLang::print_indent(CppPrinter &printer) {$/;"	f	class:CppLang
+print_indent	go_lang.cpp	/^void GoLang::print_indent(GoPrinter &printer) {$/;"	f	class:GoLang
+print_message	cpp_lang.cpp	/^void CppLang::print_message(CppPrinter &printer, ptr<MessageTree> tree) {$/;"	f	class:CppLang
+print_message	go_lang.cpp	/^void GoLang::print_message(GoPrinter &printer, ptr<MessageTree> tree) {$/;"	f	class:GoLang
+print_message_opt	cpp_lang.cpp	/^void CppLang::print_message_opt(CppPrinter &printer, ptr<MessageTree> tree) {$/;"	f	class:CppLang
+print_message_opt	go_lang.cpp	/^void GoLang::print_message_opt(GoPrinter &printer, ptr<MessageTree> tree) {$/;"	f	class:GoLang
+print_serial	cpp_lang.cpp	/^void CppLang::print_serial(CppPrinter &printer, ptr<StructTree> tree) {$/;"	f	class:CppLang
+print_serial	go_lang.cpp	/^void GoLang::print_serial(GoPrinter &printer, ptr<StructTree> tree) {$/;"	f	class:GoLang
+print_struct	cpp_lang.cpp	/^void CppLang::print_struct(CppPrinter &printer, ptr<StructTree> tree) {$/;"	f	class:CppLang
+print_struct	go_lang.cpp	/^void GoLang::print_struct(GoPrinter &printer, ptr<StructTree> tree) {$/;"	f	class:GoLang
+print_struct_dump	cpp_lang.cpp	/^void CppLang::print_struct_dump(CppPrinter &printer, ptr<StructItemTree> tree, const char *name, bool is_pointer) {$/;"	f	class:CppLang
+print_struct_dump	go_lang.cpp	/^void GoLang::print_struct_dump(GoPrinter &printer, ptr<StructItemTree> tree, const char *name, bool is_pointer) {$/;"	f	class:GoLang
+print_struct_fromlua	cpp_lang.cpp	/^void CppLang::print_struct_fromlua(CppPrinter &printer, ptr<StructItemTree> tree, const char *name, bool is_pointer) {$/;"	f	class:CppLang
+print_struct_serial	cpp_lang.cpp	/^void CppLang::print_struct_serial(CppPrinter &printer, ptr<StructItemTree> tree, const char *name, bool is_pointer) {$/;"	f	class:CppLang
+print_struct_serial	go_lang.cpp	/^void GoLang::print_struct_serial(GoPrinter &printer, ptr<StructItemTree> tree, const char *name, bool is_pointer) {$/;"	f	class:GoLang
+print_struct_tolua	cpp_lang.cpp	/^void CppLang::print_struct_tolua(CppPrinter &printer, ptr<StructItemTree> tree, const char *name, bool is_pointer) {$/;"	f	class:CppLang
+print_struct_unserial	cpp_lang.cpp	/^void CppLang::print_struct_unserial(CppPrinter &printer, ptr<StructItemTree> tree, const char *name, bool is_pointer) {$/;"	f	class:CppLang
+print_struct_unserial	go_lang.cpp	/^void GoLang::print_struct_unserial(GoPrinter &printer, ptr<StructItemTree> tree, const char *name, bool is_pointer) {$/;"	f	class:GoLang
+print_tolua	cpp_lang.cpp	/^void CppLang::print_tolua(CppPrinter &printer, ptr<StructTree> tree) {$/;"	f	class:CppLang
+print_union	cpp_lang.cpp	/^void CppLang::print_union(CppPrinter &printer, ptr<UnionTree> tree) {$/;"	f	class:CppLang
+print_union	go_lang.cpp	/^void GoLang::print_union(GoPrinter &printer, ptr<UnionTree> tree) {$/;"	f	class:GoLang
+print_union_dump	cpp_lang.cpp	/^void CppLang::print_union_dump(CppPrinter &printer, ptr<UnionTree> tree) {$/;"	f	class:CppLang
+print_union_fromlua	cpp_lang.cpp	/^void CppLang::print_union_fromlua(CppPrinter &printer, ptr<UnionTree> tree) {$/;"	f	class:CppLang
+print_union_ptr	cpp_lang.cpp	/^void CppLang::print_union_ptr(CppPrinter &printer, ptr<UnionPtrTree> tree) {$/;"	f	class:CppLang
+print_union_ptr	go_lang.cpp	/^void GoLang::print_union_ptr(GoPrinter &printer, ptr<UnionPtrTree> tree) {$/;"	f	class:GoLang
+print_union_ptr_dump	cpp_lang.cpp	/^void CppLang::print_union_ptr_dump(CppPrinter &printer, ptr<UnionPtrTree> tree) {$/;"	f	class:CppLang
+print_union_ptr_fromlua	cpp_lang.cpp	/^void CppLang::print_union_ptr_fromlua(CppPrinter &printer, ptr<UnionPtrTree> tree) {$/;"	f	class:CppLang
+print_union_ptr_serial	cpp_lang.cpp	/^void CppLang::print_union_ptr_serial(CppPrinter &printer, ptr<UnionPtrTree> tree) {$/;"	f	class:CppLang
+print_union_ptr_tolua	cpp_lang.cpp	/^void CppLang::print_union_ptr_tolua(CppPrinter &printer, ptr<UnionPtrTree> tree) {$/;"	f	class:CppLang
+print_union_ptr_unserial	cpp_lang.cpp	/^void CppLang::print_union_ptr_unserial(CppPrinter &printer, ptr<UnionPtrTree> tree) {$/;"	f	class:CppLang
+print_union_serial	cpp_lang.cpp	/^void CppLang::print_union_serial(CppPrinter &printer, ptr<UnionTree> tree) {$/;"	f	class:CppLang
+print_union_tolua	cpp_lang.cpp	/^void CppLang::print_union_tolua(CppPrinter &printer, ptr<UnionTree> tree) {$/;"	f	class:CppLang
+print_union_unserial	cpp_lang.cpp	/^void CppLang::print_union_unserial(CppPrinter &printer, ptr<UnionTree> tree) {$/;"	f	class:CppLang
+print_unserial	cpp_lang.cpp	/^void CppLang::print_unserial(CppPrinter &printer, ptr<StructTree> tree) {$/;"	f	class:CppLang
+print_unserial	go_lang.cpp	/^void GoLang::print_unserial(GoPrinter &printer, ptr<StructTree> tree) {$/;"	f	class:GoLang
+print_var	cpp_lang.cpp	/^void CppLang::print_var(CppPrinter &printer, ptr<StructItemTree> tree, bool union_item) {$/;"	f	class:CppLang
+print_var	go_lang.cpp	/^void GoLang::print_var(GoPrinter &printer, ptr<StructItemTree> tree, bool union_item) {$/;"	f	class:GoLang
+print_var_dump	cpp_lang.cpp	/^void CppLang::print_var_dump(CppPrinter &printer, ptr<StructItemTree> tree, const char *prefix, bool is_pointer) {$/;"	f	class:CppLang
+print_var_fromlua	cpp_lang.cpp	/^void CppLang::print_var_fromlua(CppPrinter &printer, ptr<StructItemTree> tree, const char *prefix, bool is_pointer) {$/;"	f	class:CppLang
+print_var_serial	cpp_lang.cpp	/^void CppLang::print_var_serial(CppPrinter &printer, ptr<StructItemTree> tree, const char *prefix, bool is_pointer) {$/;"	f	class:CppLang
+print_var_tolua	cpp_lang.cpp	/^void CppLang::print_var_tolua(CppPrinter &printer, ptr<StructItemTree> tree, const char *prefix, bool is_pointer) {$/;"	f	class:CppLang
+print_var_unserial	cpp_lang.cpp	/^void CppLang::print_var_unserial(CppPrinter &printer, ptr<StructItemTree> tree, const char *prefix, bool is_pointer) {$/;"	f	class:CppLang
+println	printer.cpp	/^void Printer::println(const char *fmt, ...) {$/;"	f	class:Printer
+probe	symtab.cpp	/^ptr<Tree> SymbolTable::probe(const char *name, ptr<Tree> tree, bool export_it) {$/;"	f	class:SymbolTable
+program_details	missing	/^program_details ()$/;"	f
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+prototypes	configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+range	struct_item_tree.h	/^	ptr<RangeTree> range() const {$/;"	f	class:StructItemTree
+reg	lang.cpp	/^Language *Language::reg(ptr<Language> lang) {$/;"	f	class:Language
+reg	lang.h	/^    static Language *reg() {$/;"	f	class:Language
+req	message_tree.h	/^	ptr<StructTree> req() const {$/;"	f	class:MessageTree
+rsp	message_tree.h	/^	ptr<StructTree> rsp() const {$/;"	f	class:MessageTree
+s	cpp_printer.cpp	/^void CppPrinter::s(const char *fmt, ...) {$/;"	f	class:CppPrinter
+s	go_printer.cpp	/^void GoPrinter::s(const char *fmt, ...) {$/;"	f	class:GoPrinter
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+serial	test/test.cpp	/^    virtual bool serial() const {$/;"	f	struct:ISerial
+set_base_from	depcomp	/^set_base_from ()$/;"	f
+set_dir_from	depcomp	/^set_dir_from ()$/;"	f
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+size	struct_tree.h	/^	size_t size() const {$/;"	f	class:StructTree
+size	union_ptr_tree.h	/^	size_t size() const {$/;"	f	class:UnionPtrTree
+size	union_tree.h	/^	size_t size() const {$/;"	f	class:UnionTree
+size	unistr.h	/^    int size() const {$/;"	f	class:Unistr
+skip_newline	parser.h	/^    bool skip_newline() const {$/;"	f	class:Parser
+skip_newline	parser.h	/^    bool skip_newline(bool value) {$/;"	f	class:Parser
+srcdir	Makefile	/^srcdir = .$/;"	m
+sscc_LDADD	Makefile	/^sscc_LDADD = $(LDADD)$/;"	m
+sscc_OBJECTS	Makefile	/^sscc_OBJECTS = $(am_sscc_OBJECTS)$/;"	m
+sscc_SOURCES	Makefile	/^sscc_SOURCES = \\$/;"	m
+struct_	cpp_printer.cpp	/^void CppPrinter::struct_(const char *name, const char *inherited) {$/;"	f	class:CppPrinter
+struct_	go_printer.cpp	/^void GoPrinter::struct_(const char *name, const char *inherited) {$/;"	f	class:GoPrinter
+subdir	Makefile	/^subdir = .$/;"	m
+subdirs	Makefile	/^subdirs =  ..\/libgx$/;"	m
+symbols	parser.h	/^    SymbolTable &symbols() {$/;"	f	class:Parser
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+tabsize	printer.h	/^	unsigned tabsize;$/;"	m	class:Printer
+tail	lang.h	/^    std::stringstream &tail() {$/;"	f	class:Language
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | BZIP2=$${BZIP2--9} bzip2 -c >$(distdir).tar.bz2$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | GZIP=$(GZIP_ENV) gzip -c >$(distdir).tar.gz$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | XZ_OPT=$${XZ_OPT--e} xz -c >$(distdir).tar.xz$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | compress -c >$(distdir).tar.Z$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | lzip -c $${LZIP_OPT--9} >$(distdir).tar.lz$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+text	token.h	/^	void text(const char *str) {$/;"	f	class:Token
+text	token.h	/^    const char *text() const {$/;"	f	class:IdenToken
+text	token.h	/^    const char *text() const {$/;"	f	class:StringToken
+text	token.h	/^    virtual const char *text() const {$/;"	f	class:Token
+the_keyword_texts	token.cpp	/^const char *the_keyword_texts[TOKEN_KEYWORD_END - TOKEN_KEYWORD_BEGIN];$/;"	v
+the_request_name	parser.cpp	/^const char *the_request_name = "%sReq";$/;"	v
+the_response_name	parser.cpp	/^const char *the_response_name = "%sRsp";$/;"	v
+to_lua	test/test.cpp	/^    virtual void to_lua(lua_State *sscc_L, int sscc_index) {$/;"	f	struct:ISerial
+token_is_constant	token.h	/^inline bool token_is_constant(const Token *token) {$/;"	f
+top_build_prefix	Makefile	/^top_build_prefix = $/;"	m
+top_builddir	Makefile	/^top_builddir = .$/;"	m
+top_distdir	Makefile	/^top_distdir = $(distdir)$/;"	m
+top_srcdir	Makefile	/^top_srcdir = .$/;"	m
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+type	struct_item_tree.h	/^	ptr<TypeTree> type() const {$/;"	f	class:StructItemTree
+type	token.h	/^    int type() const {$/;"	f	class:Token
+type	tree.h	/^    int type() const {$/;"	f	class:Tree
+type	type_tree.h	/^	int type() const {$/;"	f	class:TypeTree
+type	unistr.h	/^    int type() const {$/;"	f	class:Unistr
+type_decl	cpp_lang.cpp	/^const char *CppLang::type_decl(ptr<StructItemTree> tree, bool union_item) {$/;"	f	class:CppLang
+type_decl	cpp_lang.cpp	/^const char *CppLang::type_decl(ptr<TypeTree> tree, bool union_item) {$/;"	f	class:CppLang
+type_decl	go_lang.cpp	/^const char *GoLang::type_decl(ptr<StructItemTree> tree, bool union_item) {$/;"	f	class:GoLang
+type_decl	go_lang.cpp	/^const char *GoLang::type_decl(ptr<TypeTree> tree, bool union_item) {$/;"	f	class:GoLang
+type_is_integer	type_tree.h	/^inline bool type_is_integer(int type) {$/;"	f
+unserial	test/test.cpp	/^    virtual bool unserial() {$/;"	f	struct:ISerial
+usage	sscc.cpp	/^void usage() {$/;"	f
+value	define_tree.h	/^    ptr<ExprTree> value() const {$/;"	f	class:DefineTree
+value	token.h	/^    bool value() const {$/;"	f	class:BoolToken
+value	token.h	/^    int64_t value() const {$/;"	f	class:IntegerToken
+varType	var_tree.h	/^    int varType() const {$/;"	f	class:VarTree
+vint	expr_tree.h	/^    int64_t vint() const {$/;"	f	class:ExprTree
+vint	expr_tree.h	/^    void vint(int64_t value) {$/;"	f	class:ExprTree
+vprint	printer.cpp	/^void Printer::vprint(const char *fmt, va_list ap) {$/;"	f	class:Printer
+vstr	expr_tree.h	/^    const char *vstr() const {$/;"	f	class:ExprTree
+vstr	expr_tree.h	/^    void vstr(const char *value) {$/;"	f	class:ExprTree
+while_	cpp_printer.cpp	/^void CppPrinter::while_(const char *fmt, ...) {$/;"	f	class:CppPrinter
+while_	go_printer.cpp	/^void GoPrinter::while_(const char *fmt, ...) {$/;"	f	class:GoPrinter
+~Input	input.cpp	/^Input::~Input() {$/;"	f	class:Input
+~InputFile	input.cpp	/^InputFile::~InputFile() {$/;"	f	class:InputFile
+~Language	lang.h	/^    virtual ~Language() { }$/;"	f	class:Language
+~Printer	printer.cpp	/^Printer::~Printer() {$/;"	f	class:Printer
