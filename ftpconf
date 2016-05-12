@@ -1,0 +1,32 @@
+#install
+    sudo apt-get install vsftpd
+
+#start | stop | restart
+    sudo service vsftpd start | stop | restart
+
+#new user for ftp
+    mkdir -p /home/tanlei/ftpstore
+    sudo useradd -g ftp -d /home/tanlei/ftpstore -M snow -s /sbin/nologin
+    passwd snow
+
+#modify /etc/vsftpd.conf
+    anonymous_enable=NO
+    local_enable=YES
+    write_enable=YES
+    chroot_list_enable=YES
+    chroot_list_file=/etc/vsftpd.chroot_list
+
+#new file etc/vsftpd.chroot_list
+    echo "snow" >> /etc/vsftpd.chroot_list
+
+#question1 :"530 Login incorrect"
+    resolve: echo "/sbin/nologin" >> /etc/shells
+
+#question2 :"500 OOPS: vsftpd: refusing to run with writable root inside chroot()"
+    resolve:
+        sudo chmod a-w /home/tanlei/ftpstore
+        sudo mkdir -p /home/tanlei/ftpstore/wwwroot
+        sudo chmod 777 wwwroot
+
+#last
+    sudo service vsftpd restart
