@@ -2,10 +2,10 @@
 
 set user ubuntu
 set host 119.29.52.148
-set password sgq@@@shangyuanjuntingdongmen
+set password gamehi2016
 set timeout 10
 
-spawn scp package_6597.tar.gz $user@$host:/home/ubuntu/pkg/
+spawn scp package_9851.tar.gz $user@$host:/home/ubuntu/pkg/
 expect {
     "*yes/no" { send "yes\r"; exp_continue}
     "*password:" { send "$password\r" }

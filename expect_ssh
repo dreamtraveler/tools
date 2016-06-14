@@ -2,7 +2,7 @@
 
 set user ubuntu
 set host 119.29.52.148
-set password sgq@@@shangyuanjuntingdongmen
+set password gamehi2016
 set timeout 10
 
 spawn ssh $user@$host
