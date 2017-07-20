@@ -89,3 +89,18 @@ E585BBA1 2538C270 E2E857C2 194283CA
 63909E12 203C0169 3F08FFC8 86D06EA8
 73DDAEF0 AC559F30 A6A67947 B60104C6
 —— END LICENSE ——
+
+
+
+user keysetting
+[
+	{ "keys": ["ctrl+]"], "command": "exit_insert_mode",
+    "context":
+    [
+        { "key": "setting.command_mode", "operand": false },
+        { "key": "setting.is_widget", "operand": false }
+    ]
+	},
+	{ "keys": ["alt+l"], "command": "alignment" },
+	{ "keys": ["ctrl+w"], "command": "close_file" }
+]
