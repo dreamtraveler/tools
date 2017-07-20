@@ -94,7 +94,8 @@ E585BBA1 2538C270 E2E857C2 194283CA
 
 user keysetting
 [
-	{ "keys": ["ctrl+]"], "command": "exit_insert_mode",
+	{ "keys": ["ctrl+["], "command": "noop"},
+	{ "keys": ["ctrl+["], "command": "exit_insert_mode",
     "context":
     [
         { "key": "setting.command_mode", "operand": false },
@@ -102,5 +103,7 @@ user keysetting
     ]
 	},
 	{ "keys": ["alt+l"], "command": "alignment" },
-	{ "keys": ["ctrl+w"], "command": "close_file" }
+	{ "keys": ["ctrl+w"], "command": "close_file" },
+	{ "keys": ["ctrl+h"], "command": "left_delete" }
 ]
+
