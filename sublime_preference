@@ -107,3 +107,19 @@ user keysetting
 	{ "keys": ["ctrl+h"], "command": "left_delete" }
 ]
 
+plugin
+"installed_packages":
+[
+	"Align Arguments",
+	"Alignment",
+	"AutoFileName",
+	"ConvertToUTF8",
+	"Package Control",
+	"SideBarEnhancements",
+	"SublimeLinter",
+	"SublimeLinter-lua",
+	"SublimeLinter-luacheck",
+	"Theme - Spacegray"
+]
+
+
