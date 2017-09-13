@@ -110,17 +110,22 @@ user keysetting
 ]
 
 plugin
+
 "installed_packages":
 [
+	"A File Icon",
 	"Align Arguments",
 	"Alignment",
 	"AutoFileName",
 	"ConvertToUTF8",
+	"IMESupport",
 	"Package Control",
 	"SideBarEnhancements",
 	"SublimeLinter",
 	"SublimeLinter-lua",
 	"SublimeLinter-luacheck",
+	"SyncedSidebarBg",
+	"Terminal",
 	"Theme - Spacegray"
 ]
 
