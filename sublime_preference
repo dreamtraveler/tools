@@ -28,6 +28,7 @@
 	],
 	"font_size": 20,
 	"highlight_line": true,
+	"show_encoding": false,
 	"ignored_packages":
 	[
 	],
@@ -96,17 +97,39 @@ E585BBA1 2538C270 E2E857C2 194283CA
 
 user keysetting
 [
-	{ "keys": ["ctrl+["], "command": "noop"},
-	{ "keys": ["ctrl+["], "command": "exit_insert_mode",
-    "context":
-    [
-        { "key": "setting.command_mode", "operand": false },
-        { "key": "setting.is_widget", "operand": false }
-    ]
-	},
 	{ "keys": ["alt+l"], "command": "alignment" },
 	{ "keys": ["ctrl+w"], "command": "close_file" },
-	{ "keys": ["ctrl+h"], "command": "left_delete" }
+	{ "keys": ["ctrl+h"], "command": "left_delete" },
+    {"keys": ["ctrl+["],   "command": "noop"},
+    { "keys": ["ctrl+["], "command": "exit_insert_mode",
+        "context":
+        [
+            { "key": "setting.command_mode", "operand": false },
+            { "key": "setting.is_widget", "operand": false },
+            { "key": "setting.vintage_ctrl_keys" }
+        ]
+    },
+
+    { "keys": ["ctrl+["], "command": "exit_visual_mode",
+        "context":
+        [
+            { "key": "setting.command_mode"},
+            { "key": "num_selections", "operand": 1},
+            { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": false },
+            { "key": "setting.vintage_ctrl_keys" }
+        ]
+    },
+
+    { "keys": ["ctrl+["], "command": "vi_cancel_current_action", "context":
+        [
+            { "key": "setting.command_mode" },
+            { "key": "vi_has_input_state" },
+            { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": false },
+            { "key": "setting.vintage_ctrl_keys" }
+        ]
+    },
+    { "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace"}
+
 ]
 
 plugin
