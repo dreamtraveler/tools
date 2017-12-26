@@ -4,12 +4,13 @@ sudo stop mysql
 # sudo /usr/bin/mysqld_safe --skip-grant-tables
 mysql> use mysql;
 mysql> update user set Password = PASSWORD('root') where User ='root';
+# mysql 5.7后密码字段为 authentication_string
 
 sudo restart mysql
 
-#最大授权
 netstat -an | grep 3306
 
+#最大授权
 sudo vim /etc/mysql/my.cnf
 # bind-address		= 127.0.0.1
 
