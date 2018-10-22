@@ -1,0 +1,18 @@
+let mapleader = "\"
+set incsearch
+
+nmap <C-O> :vsc VAssistX.NavigateBack<CR>
+nmap <C-I> :vsc VAssistX.NavigateForward<CR>
+nmap <C-]> :vsc VAssistX.GotoImplementation<CR>
+nmap gd :vsc VAssistX.GotoImplementation<CR>
+nmap gw :vsc VAssistX.FindReferences<CR>
+nmap gt :vsc Edit.FindInFiles<CR>
+
+nmap <Leader>w :w<CR>
+nmap <Leader>q :q<CR>
+
+nmap <Leader>b :vsc Build.BuildOnlyProject<CR>
+nmap <Leader>c :vsc Build.Compile<CR>
+
+nmap <C-P> :vsc VAssistX.OpenFileInSolutionDialog<CR>
+imap <C-P> <ESC>:vsc VAssistX.OpenFileInSolutionDialog<CR>
