@@ -1,3 +1,14 @@
+window install
+cmd as administrator
+mysqld remove
+mysqld install
+mysqld --initialize (if data file, rm first)
+mysqld --skip-grant-tables
+//update password
+SET PASSWORD = PASSWORD('your_new_password');
+net start mysql
+
+
 ubuntu 改密码
 sudo stop mysql
 
