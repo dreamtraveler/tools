@@ -1,0 +1,19 @@
+// new a file: mycron
+* * * * * /home/neo/opt/mycmd.sh >/dev/null 2>&1
+//run
+crontab mycron
+
+//AMI, centos
+sudo service crond restart
+sudo systemctl restart crond.service
+
+//ubuntu
+sudo service cron restart
+sudo systemctl restart cron.service
+
+
+//调试
+# 查找 /var/log/cron.log 日志文件 ，发现没有文件  ，开启crontab 日志 
+sudo vim /etc/rsyslog.d/50-default.conf 
+# 找到cron.log相关行，将前面注释符#去掉，保存退出，重启rsyslog：
+sudo  service rsyslog  restart
