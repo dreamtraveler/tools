@@ -1,2 +1,5 @@
 # 查看所有侦听状态的端口
 netstat -nuptl
+
+#centos version
+cat /etc/redhat-release
