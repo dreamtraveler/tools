@@ -3,3 +3,7 @@ netstat -nuptl
 
 #centos version
 cat /etc/redhat-release
+
+//查硬盘信息
+sudo fdisk -l
+cat /sys/block/nvme0n1/queue/rotational
