@@ -10,3 +10,6 @@ cat /sys/block/nvme0n1/queue/rotational
 
 #查看 socket 种状态数
 netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'
+
+#批量杀进程
+ps axu | grep /data/user00/cooking | awk '{print $2}' | xargs -I {} kill -9 {}
