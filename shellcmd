@@ -1,15 +1,28 @@
 # 查看所有侦听状态的端口
 netstat -nuptl
 
-#centos version
+# centos version
 cat /etc/redhat-release
 
-//查硬盘信息
+# 查硬盘信息
 sudo fdisk -l
 cat /sys/block/nvme0n1/queue/rotational
 
-#查看 socket 种状态数
+# 查看 socket 种状态数
 netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'
 
-#批量杀进程
+# 批量杀进程
 ps axu | grep /data/user00/cooking | awk '{print $2}' | xargs -I {} kill -9 {}
+
+# 后台运行脚本
+nohup python dog.py >> dog.log 2>&1 &
+
+# 当前系统copy到远程主机
+scp myfile.tar.gz root@172.16.200.53:/root/
+
+# 远程主机copy到当前系统
+scp root@172.16.200.53:/root/tanlei/myfile.tar.gz ./
+
+# 同步时间
+yum install -y ntp
+ntpdate -u 210.72.145.44
