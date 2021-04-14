@@ -1,0 +1,81 @@
+{
+    "workbench.colorTheme": "Spacegray Ocean Dark",
+    "editor.fontSize": 20,
+    "vim.hlsearch": true,
+    "vim.leader": "<space>",
+    "vim.easymotion": true,
+    "workbench.editor.enablePreview": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "workbench.activityBar.visible": true,
+    "extensions.ignoreRecommendations": false,
+    "window.zoomLevel": 1,
+    "workbench.colorCustomizations": {
+        "statusBar.foreground": "#DDDDDD"
+        // "statusBar.noFolderBackground": "#283138",
+        // "statusBar.debuggingBackground": "#283138"
+    },
+    "files.autoGuessEncoding": true,
+    "clang-format.executable": "~/opt/clang-format",
+    // "remote.SSH.path": "c:\\cygwin\\bin",
+    "remote.SSH.showLoginTerminal": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "files.autoSave": "off",
+    "typescript.tsc.autoDetect": "off",
+
+    "terminal.integrated.fontSize": 16,
+    "task.autoDetect": "off",
+    "workbench.sideBar.location": "left",
+    "diffEditor.ignoreTrimWhitespace": false,
+
+    "C_Cpp.updateChannel": "Insiders",
+    "remote.SSH.remotePlatform": {
+        "cooking_0941_dev": "linux",
+        "cook_trunk": "linux",
+        "libconnclient": "linux",
+        "gcomponent": "linux"
+    },
+    "terminal.integrated.scrollback": 4000,
+    "files.encoding": "utf8bom",
+    "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWw7dW1sO2VyO2JwbW47Zmxvd2NoYXJ0O2Jhc2ljO2Fycm93czJcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltcIm5vbmVcIixcIjA4MDgwOFwiLFwiMDAwMDZCXCIsXCIwMDAwRkZcIixcIjAwMDAwMFwiLFwiOTk5OTk5XCIsXCJFNkU0RkFcIixcIkQwQ0VFMlwiLFwiRkY5OTMzXCIsXCJGRjAwODBcIixcIkZGRkZGRlwiXSxcImZvcm1hdFdpZHRoXCI6MjQwLFwiY3JlYXRlVGFyZ2V0XCI6ZmFsc2UsXCJwYWdlRm9ybWF0XCI6e1wieFwiOjAsXCJ5XCI6MCxcIndpZHRoXCI6ODI3LFwiaGVpZ2h0XCI6MTE2OX0sXCJzZWFyY2hcIjp0cnVlLFwic2hvd1N0YXJ0U2NyZWVuXCI6dHJ1ZSxcImdyaWRDb2xvclwiOlwiI2QwZDBkMFwiLFwiZGFya0dyaWRDb2xvclwiOlwiIzZlNmU2ZVwiLFwiYXV0b3NhdmVcIjp0cnVlLFwicmVzaXplSW1hZ2VzXCI6bnVsbCxcIm9wZW5Db3VudGVyXCI6MCxcInZlcnNpb25cIjoxOCxcInVuaXRcIjoxLFwiaXNSdWxlck9uXCI6ZmFsc2UsXCJ1aVwiOlwiXCJ9In0=",
+    "vim.debug.silent": true,
+    "clang-format.language.apex.style": "file",
+    "vim.easymotionMarkerBackgroundColor": "",
+    "vim.easymotionDimBackground": false,
+    // "C_Cpp.intelliSenseEngine": "Tag Parser"
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["leader", "w"],
+            "after": ["leader", "leader", "w"],
+        },
+        {
+            "before": ["leader", "b"],
+            "after": ["leader", "leader", "b"],
+        },
+        {
+            "before": ["leader", "j"],
+            "after": ["leader", "leader", "j"],
+        },
+        {
+            "before": ["leader", "k"],
+            "after": ["leader", "leader", "k"],
+        }
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "[proto3]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ]
+}
