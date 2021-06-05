@@ -1,0 +1,255 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "workbench.action.terminal.newWithCwd",
+        "args": {
+            "cwd": "${fileDirname}"
+        }
+    },
+    {
+        "key":"ctrl+o",
+        "command":"workbench.action.navigateBack",
+        "when": "editorTextFocus && vim.active && vim.use<C-o> && !inDebugRepl"
+    },
+    {
+        "key":"ctrl+i",
+        "command":"workbench.action.navigateForward",
+        "when": "editorTextFocus && vim.active && vim.use<C-i> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+k ctrl+w",
+        "command": "workbench.action.closeAllEditors"
+    },
+    { "key": "alt+m",  "command": "workbench.action.gotoSymbol" },
+    // {
+    //     "key": "ctrl+oem_4",
+    //     "command": "extension.vim_ctrl+[",
+    //     "when": "editorFocus && vim.active && vim.use<C-[> && !inDebugRepl"
+    // },
+    // {
+    //     "key": "ctrl+oem_4",
+    //     "command": "-extension.vim_ctrl+[",
+    //     "when": "editorTextFocus && vim.active && vim.use<C-[> && !inDebugRepl"
+    // },
+    { "key": "ctrl+oem_4", "command": "closeFindWidget",
+                            "when": "editorFocus && findWidgetVisible"
+                        },
+    { "key": "ctrl+oem_4", "command": "workbench.action.closeQuickOpen",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+oem_4",
+        "command": "closeReferenceSearch",
+        "when": "referenceSearchVisible && !config.editor.stablePeek"
+    },
+    {
+        "key": "ctrl+alt+j",
+        "command": "editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+down",
+        "command": "-editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+k",
+        "command": "editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+up",
+        "command": "-editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "-workbench.action.gotoLine"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "f12",
+        "command": "-editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "ctrl+;",
+        "command": "goToWord.find"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "-editor.action.toggleTabFocusMode"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.terminal.focus",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "alt+1",
+        "command": "workbench.action.terminal.focusAtIndex1",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+2",
+        "command": "workbench.action.terminal.focusAtIndex2",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+3",
+        "command": "workbench.action.terminal.focusAtIndex3",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+4",
+        "command": "workbench.action.terminal.focusAtIndex4",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+5",
+        "command": "workbench.action.terminal.focusAtIndex5",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+2",
+        "command": "workbench.action.focusSecondEditorGroup"
+    },
+    {
+        "key": "ctrl+2",
+        "command": "-workbench.action.focusSecondEditorGroup"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-workbench.action.terminal.focusFind",
+        "when": "terminalFindFocused || terminalFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.quickOpenSelectNext",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.quickOpenSelectPrevious",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.closePanel",
+        "when": "terminalFocus"
+    },
+    // simulate emacs begin
+    {
+        "key": "ctrl+a",
+        "command": "cursorHome",
+        "when": "editorTextFocus && vim.active && vim.use<C-e> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "cursorLineEnd",
+        "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Insert'"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "extension.vim_ctrl+e",
+        "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode != 'Insert'"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-extension.vim_ctrl+e",
+        "when": "editorTextFocus && vim.active && vim.use<C-e> && !inDebugRepl"
+    },
+    {
+        "key": "alt+b",
+        "command": "cursorWordLeft",
+        "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Insert'"
+    },
+    {
+        "key": "alt+f",
+        "command": "cursorWordRight",
+        "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Insert'"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "cursorRight",
+        "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Insert'"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "cursorLeft",
+        "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Insert'"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "cursorDown",
+        "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Insert'"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "cursorUp",
+        "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Insert'"
+    },
+    // simulate emacs end
+    {
+        "key": "ctrl+alt+b",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "-extension.vim_ctrl+n",
+        "when": "editorTextFocus && vim.active && vim.use<C-n> && !inDebugRepl || vim.active && vim.use<C-n> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-n> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "-workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "alt+p",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "list.focusDown",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "list.focusUp",
+        "when": "listFocus && !inputFocus"
+    },
+]
