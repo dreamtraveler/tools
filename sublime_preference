@@ -60,7 +60,7 @@ user keysetting
 	{ "keys": ["alt+l"], "command": "alignment" },
 	{ "keys": ["ctrl+w"], "command": "close_file" },
 	{ "keys": ["ctrl+h"], "command": "left_delete" },
-    {"keys": ["ctrl+["],   "command": "noop"},
+    { "keys": ["ctrl+["],   "command": "noop"},
     { "keys": ["ctrl+["], "command": "exit_insert_mode",
         "context":
         [
@@ -88,6 +88,24 @@ user keysetting
             { "key": "setting.vintage_ctrl_keys" }
         ]
     },
+    { "keys": ["ctrl+["], "command": "hide_panel", "args": {"cancel": true},
+        "context":
+        [
+            { "key": "panel_visible", "operator": "equal", "operand": true }
+        ]
+    },
+    { "keys": ["ctrl+["], "command": "hide_overlay", "context":
+        [
+            { "key": "overlay_visible", "operator": "equal", "operand": true },
+            { "key": "panel_has_focus", "operator": "equal", "operand": false }
+        ]
+    },
+    { "keys": ["ctrl+["], "command": "single_selection", "context":
+        [
+            { "key": "setting.command_mode"},
+            { "key": "num_selections", "operator": "not_equal", "operand": 1 }
+        ]
+    },
     { "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace"},
     { "keys": ["g", "d"], "command": "goto_definition",
         "context":
@@ -113,7 +131,7 @@ user keysetting
     { "keys": ["alt+o"], "command": "lsp_clangd_switch_source_header"},
     { "keys": ["shift+alt+f"], "command": "lsp_format_document"},
     { "keys": ["super+b"], "command": "toggle_side_bar" },
-    {"keys": ["super+j"], "command": "toggle_terminus_panel" },
+    { "keys": ["super+j"], "command": "toggle_terminus_panel" },
     {
         "keys": ["super+t"],
         "command": "terminus_open",
@@ -121,8 +139,14 @@ user keysetting
             "cwd": "${file_path:${folder}}"
         }
     },
-    {"keys": ["ctrl+w"], "command": "terminus_close", "context": [{ "key": "terminus_view"}] }
+    { "keys": ["ctrl+w"], "command": "terminus_close", "context": [{ "key": "terminus_view"}] },
+    { "keys": ["super+shift+o"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+    { "keys": ["ctrl+j"], "command": "swap_line_down" },
+    { "keys": ["ctrl+k"], "command": "swap_line_up" },
+    { "keys": ["ctrl+super+k"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["ctrl+super+j"], "command": "select_lines", "args": {"forward": true} },
 ]
+
 
 
 plugin
