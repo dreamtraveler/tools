@@ -16,3 +16,28 @@ nmap <Leader>c :vsc Build.Compile<CR>
 
 nmap <C-P> :vsc VAssistX.OpenFileInSolutionDialog<CR>
 imap <C-P> <ESC>:vsc VAssistX.OpenFileInSolutionDialog<CR>
+
+
+# 直接绑定visual studio 原生快捷键
+let mapleader = "\"
+set incsearch
+set cursorline
+set number
+
+nmap <C-O> :vsc View.NavigateBackward<CR>
+nmap <C-I> :vsc View.NavigateForward<CR>
+nmap <C-]> :vsc Edit.GoToDeclaration<CR>
+nmap <C-[> :vsc Edit.SelectionCancel<CR>
+nmap gd :vsc Edit.GoToDefinition<CR>
+nmap gw :vsc Edit.FindAllReferences<CR>
+
+nmap <Leader>w :w<CR>
+nmap <Leader>q :q<CR>
+
+nmap <Leader>b :vsc Build.BuildOnlyProject<CR>
+nmap <Leader>c :vsc Build.Compile<CR>
+
+nmap <C-P> :vsc Edit.GoToFile<CR>
+imap <C-P> <ESC>:vsc Edit.GoToFile<CR>
+
+# visual studio 安装 Clang Power Tools 来生成 compile_commands.json
